@@ -1,8 +1,27 @@
 require 'rspec'
+require 'vcr'
 #require 'webmock/rspec'
 
+VCR.configure do |c|
+  c.cassette_library_dir = 'spec/vcr_cassettes'
+  c.hook_into :typhoeus
+end
+
 RSpec.configure do |config|
+
+
   config.mock_with :rspec
+
+  config.treat_symbols_as_metadata_keys_with_true_values = true
+  config.around(:each, :vcr) do |example|
+    #name = example.metadata[:full_description].split(/\s+/, 2).join("/").underscore.gsub(/[^\w\/]+/, "_")
+    name = example.metadata[:full_description].split(/\s+/, 2).join("/").downcase.gsub(/\s+/,"_")
+    #options = example.metadata.slice(:record, :match_requests_on).except(:example_group)
+    options = example.metadata.reduce({}){ |acc, x| [:record,:match_requests_on].include?(x[0]) ? acc.merge({x[0] => x[1]}) : acc } 
+    VCR.use_cassette(name, options) { example.call }
+    #VCR.use_cassette(name) { example.call }
+  end
+
   # Use color in STDOUT
   config.color_enabled = true
 
