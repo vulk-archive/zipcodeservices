@@ -3,8 +3,12 @@ require 'spec_helper'
 
 describe "client" do 
 
-  before(:each) do
-    ZipCodeServices.apikey = 'YOUR_API_HERE'
+  before(:all) do
+    ZipCodeServices.apikey = ENV['ZIP_CODE_SERVICES_API_KEY'] || 'YOUR_API_KEY_HERE'
+  end
+
+  VCR.configure do |c|
+    c.filter_sensitive_data("<API_KEY>") { ZipCodeServices.apikey }
   end
 
   it "should retrieve zip code info", :vcr, record: :new_episodes do 
@@ -34,12 +38,12 @@ describe "client" do
     countries.first[1].first["Abbreviation"].should == "US"
   end
 
-  it "should get states / provinces by country id (country id attained by request to countries list)", :vcr,  record: :new_episodes do
+  it "should get states-provinces by country id (country id attained by request to countries list)", :vcr,  record: :new_episodes do
     states = ZipCodeServices.states(1)
     states.first[1].first["Abbreviation"].should == "AL"
   end
 
-  it "should get cities by province id / provinces id (country id attained by request to states list)", :vcr,  record: :new_episodes do
+  it "should get cities by state id (province id) (state id attained by request to states list)", :vcr,  record: :new_episodes do
     cities = ZipCodeServices.cities(200)
     cities.first[1].first["City"].should == "Alamo"
   end

@@ -1,0 +1,41 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.zipcodeservices.com/services/rest/json/zipcodes.svc/GetDistanceBetweenZipCodes?apikey=<API_KEY>&zipcode1=78702&zipcode2=01109
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        MTU5
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbjsgY2hhcnNldD11dGYtOA==
+      !binary "U2VydmVy":
+      - !binary |-
+        TWljcm9zb2Z0LUlJUy83LjU=
+      !binary "WC1Qb3dlcmVkLUJ5":
+      - !binary |-
+        QVNQLk5FVA==
+      !binary "RGF0ZQ==":
+      - !binary |-
+        VGh1LCAwOCBNYXkgMjAxNCAwMTo1NDozOCBHTVQ=
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJSZXRyaWV2ZURpc3RhbmNlQmV0d2VlblppcENvZGVzUmVzdWx0Ijp7IkRp
+        c3RhbmNlQXdheUluS2lsb21ldGVycyI6MjYwMS41MDAxOTQwOTUzMCwiRGlz
+        dGFuY2VBd2F5SW5NaWxlcyI6MTYxNi41MDEyOTUsIlppcENvZGUxIjoiNzg3
+        MDIiLCJaaXBDb2RlMiI6IjAxMTA5In19
+    http_version: !binary |-
+      MS4x
+  recorded_at: Thu, 08 May 2014 01:54:41 GMT
+recorded_with: VCR 2.2.4
