@@ -26,4 +26,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'debugger'
 
   s.add_runtime_dependency "typhoeus", "0.3.3"
+  s.add_runtime_dependency "multi_xml"
+  s.add_runtime_dependency "nokogiri"
 end
