@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://www.zipcodeservices.com/services/rest/json/zipcodes.svc/GetDistanceBetweenZipCodes?apikey=<API_KEY>&zipcode1=78702&zipcode2=01109
+    uri: https://www.zipcodeservices.com/services/rest/json/ipaddress.svc/GetZipsInRadiusOfIP?apikey=<API_KEY>&ip=184.98.179.3&radius=1
     body:
       encoding: US-ASCII
       string: ''
@@ -15,7 +15,7 @@ http_interactions:
     headers:
       !binary "Q29udGVudC1MZW5ndGg=":
       - !binary |-
-        MTU5
+        MzI4
       !binary "Q29udGVudC1UeXBl":
       - !binary |-
         YXBwbGljYXRpb24vanNvbjsgY2hhcnNldD11dGYtOA==
@@ -31,10 +31,14 @@ http_interactions:
     body:
       encoding: ASCII-8BIT
       string: !binary |-
-        eyJSZXRyaWV2ZURpc3RhbmNlQmV0d2VlblppcENvZGVzUmVzdWx0Ijp7IkRp
-        c3RhbmNlQXdheUluS2lsb21ldGVycyI6MjYwMS41MDAxOTQwOTUzMCwiRGlz
-        dGFuY2VBd2F5SW5NaWxlcyI6MTYxNi41MDEyOTUsIlppcENvZGUxIjoiNzg3
-        MDIiLCJaaXBDb2RlMiI6IjAxMTA5In19
+        eyJSZXRyaWV2ZVppcENvZGVzSW5SYWRpdXNPZklQUmVzdWx0IjpbeyJDaXR5
+        IjoiQ2hpbm8gVmFsbGV5IiwiQ29udGluZW50IjoiTm9ydGggQW1lcmljYSIs
+        IkNvbnRpbmVudENvZGUiOiJOQSIsIkNvdW50cnkiOiJVbml0ZWQgU3RhdGVz
+        IiwiQ291bnRyeUNvZGUiOiJVUyIsIkNvdW50eSI6IllhdmFwYWkiLCJEaXN0
+        YW5jZUF3YXlJbktpbG9tZXRlcnMiOjAuMDAwMDk0OTUxMDYsIkRpc3RhbmNl
+        QXdheUluTWlsZXMiOjAuMDAwMDU5LCJMYXRpdHVkZSI6MzQuODI0NTAwLCJM
+        b25naXR1ZGUiOi0xMTIuNDU5NTAwLCJQb3N0YWxDb2RlIjoiODYzMjMiLCJT
+        dGF0ZSI6IkFaIn1dfQ==
     http_version: !binary |-
       MS4x
   recorded_at: Thu, 08 May 2014 02:26:28 GMT

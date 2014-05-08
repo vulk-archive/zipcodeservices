@@ -2,15 +2,6 @@ require 'zipcodeservices'
 require 'spec_helper'
 
 describe "client" do 
-
-  before(:all) do
-    ZipCodeServices.apikey = ENV['ZIP_CODE_SERVICES_API_KEY'] || 'YOUR_API_KEY_HERE'
-  end
-
-  VCR.configure do |c|
-    c.filter_sensitive_data("<API_KEY>") { ZipCodeServices.apikey }
-  end
-
   it "should retrieve zip code info", :vcr, record: :new_episodes do 
     zips = ZipCodeServices.zipcode("78702") 
     zips.first[1]["City"].should == "Austin" 
@@ -53,4 +44,13 @@ describe "client" do
     cities.first[1][20]["City"].should == "Arlington"
   end
 
+  it "should return information on ip addresses", :vcr, record: :new_episodes do 
+    data = ZipCodeServices.ipaddress("184.98.179.3")
+    data.first[1]["ZipCode"].should == "85001"
+  end
+
+  it "should return zips in radius of ip address", :vcr, record: :new_episodes do 
+    data = ZipCodeServices.ipaddress_radius("184.98.179.3", 1)
+    data.first[1].first["PostalCode"].should == "86323"
+  end
 end
