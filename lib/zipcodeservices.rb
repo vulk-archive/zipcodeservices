@@ -59,9 +59,15 @@ module ZipCodeServices
     def radius_by_latlong(lat, lon, rad)
       response = Typhoeus::Request.get( "#{base_uri}/zipcodes.svc/GetZipCodesInRadiusLatLong?apikey=#{apikey}&latitude=#{lat}&longitude=#{lon}&radius=#{rad}") 
       if response.code == 200 
-        j = JSON::parse(response.body)
-        raise "BAD API KEY" if j["GetZipCodesInRadiusOfLatLongResult"] == nil 
-        j
+				if data_format == :xml
+					j = MultiXml.parse(response.body) 
+					raise "BAD API KEY" if j.first[1].first[1].first[0]["PostalCode"] == nil 
+				else	
+					j = JSON::parse(response.body)
+					raise "BAD API KEY" if j.first[1].first["PostalCode"] == nil 
+				#	["GetZipCodesInRadiusOfLatLongResult"] ==nil 
+				end
+					j
       elsif response.code == 404
         nil 
       else 
@@ -72,15 +78,20 @@ module ZipCodeServices
     def distance_between_zipcodes(zip1, zip2) 
       response = Typhoeus::Request.get( "#{base_uri}/zipcodes.svc/GetDistanceBetweenZipCodes?apikey=#{apikey}&zipcode1=#{zip1}&zipcode2=#{zip2}") 
       if response.code == 200 
-        j = JSON::parse(response.body)
-        raise "BAD API KEY" if j.first[1]["ZipCode1"] == nil 
-        j
+				if data_format == :xml
+					j = MultiXml.parse(response.body) 
+        	raise "BAD API KEY" if j.first[1]["DistanceAwayInMiles"] == nil  
+				else
+					j = JSON::parse(response.body)
+        	raise "BAD API KEY" if j.first[1]["ZipCode1"] == nil 
+				end
+					j
       elsif response.code == 404
         nil 
       else 
         raise response.body 
-      end 
-    end
+      	end 
+		end
 
     def countries
       response = Typhoeus::Request.get( "#{base_uri}/countries.svc/#{apikey}") 

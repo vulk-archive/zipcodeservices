@@ -76,18 +76,18 @@ describe "xml client" do
   end
 
   it "should get zip codes in radius of latitude and longitude", :vcr,  record: :new_episodes do
-    pending
+   # pending
     zips = ZipCodeServices.radius_by_latlong("30.2645715", "-97.7284341", 1)
     zips.first[1].first["PostalCode"].should == "73301"
   end
 
   it "should get the distance between zip codes", :vcr,  record: :new_episodes do
-    pending
+   # pending
     zips = ZipCodeServices.distance_between_zipcodes("78702", "01109")
     zips.first[1]["DistanceAwayInMiles"].should == 1616.501295
   end
 
-  it "should get countries", :vcr,  record: :new_episodes do
+	it "should get countries", :vcr,  record: :new_episodes do
     pending
     countries = ZipCodeServices.countries
     countries.first[1].first["Abbreviation"].should == "US"
