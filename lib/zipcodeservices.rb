@@ -81,7 +81,6 @@ module ZipCodeServices
       if response.code == 200 
 				if data_format == :xml
 					j = MultiXml.parse(response.body) 
-        	debugger
 					raise "BAD API KEY" if j.first[1]["RetrieveDistanceBetweenZipCodesResult"]["DistanceAwayInMiles"] == nil  
 				else
 					j = JSON::parse(response.body)
@@ -98,9 +97,15 @@ module ZipCodeServices
     def countries
       response = Typhoeus::Request.get( "#{base_uri}/countries.svc/#{apikey}") 
       if response.code == 200 
-        j = JSON::parse(response.body)
-        raise "BAD API KEY" if j["GetCountriesResult"] == nil 
-        j
+				if data_format == :xml
+					j = MultiXml.parse(response.body) 
+					debugger
+					raise "BAD API KEY" if j.first[1].first[1].first[1][0]["Abbreviation"] == nil
+				else
+					j = JSON::parse(response.body)
+					raise "BAD API KEY" if j["GetCountriesResult"] == nil 
+				end
+					j
       elsif response.code == 404
         nil 
       else 
