@@ -84,7 +84,7 @@ describe "xml client" do
   it "should get the distance between zip codes", :vcr,  record: :new_episodes do
    # pending
     zips = ZipCodeServices.distance_between_zipcodes("78702", "01109")
-    zips.first[1]["DistanceAwayInMiles"].should == 1616.501295
+    zips.first[1]["RetrieveDistanceBetweenZipCodesResult"]["DistanceAwayInMiles"].should == "1616.501295"
   end
 
 	it "should get countries", :vcr,  record: :new_episodes do

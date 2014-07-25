@@ -62,7 +62,7 @@ module ZipCodeServices
 				if data_format == :xml
 					j = MultiXml.parse(response.body) 
 					#raise "BAD API KEY" if j.first[1].first[1].first[1][0]["PostalCode"] == nil 
-          raise "BAD API KEY" if j.fetch("GetZipCodesInRadiusOfLatLongResponse", {}).fetch("GetZipCodesInRadiusOfLatLongResult", {}).fetch("ZipCodeWithDistanceDTO", :not_found).fetch(1, {}).fetch("PostalCode", :not_found) == :not_found 
+          raise "BAD API KEY" if j.first[1]["GetZipCodesInRadiusOfLatLongResult"]["ZipCodeWithDistanceDTO"][0]["PostalCode"] == nil
 				else	
 					j = JSON::parse(response.body)
 					raise "BAD API KEY" if j.first[1].first["PostalCode"] == nil 
@@ -81,7 +81,8 @@ module ZipCodeServices
       if response.code == 200 
 				if data_format == :xml
 					j = MultiXml.parse(response.body) 
-        	raise "BAD API KEY" if j.first[1]["DistanceAwayInMiles"] == nil  
+        	debugger
+					raise "BAD API KEY" if j.first[1]["RetrieveDistanceBetweenZipCodesResult"]["DistanceAwayInMiles"] == nil  
 				else
 					j = JSON::parse(response.body)
         	raise "BAD API KEY" if j.first[1]["ZipCode1"] == nil 
