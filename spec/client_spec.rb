@@ -78,7 +78,7 @@ describe "xml client" do
   it "should get zip codes in radius of latitude and longitude", :vcr,  record: :new_episodes do
    # pending
     zips = ZipCodeServices.radius_by_latlong("30.2645715", "-97.7284341", 1)
-    zips.first[1].first["PostalCode"].should == "73301"
+    zips.first[1]["GetZipCodesInRadiusOfLatLongResult"]["ZipCodeWithDistanceDTO"][0]["PostalCode"].should == "73301"
   end
 
   it "should get the distance between zip codes", :vcr,  record: :new_episodes do

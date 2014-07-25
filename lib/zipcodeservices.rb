@@ -61,13 +61,14 @@ module ZipCodeServices
       if response.code == 200 
 				if data_format == :xml
 					j = MultiXml.parse(response.body) 
-					raise "BAD API KEY" if j.first[1].first[1].first[0]["PostalCode"] == nil 
+					#raise "BAD API KEY" if j.first[1].first[1].first[1][0]["PostalCode"] == nil 
+          raise "BAD API KEY" if j.fetch("GetZipCodesInRadiusOfLatLongResponse", {}).fetch("GetZipCodesInRadiusOfLatLongResult", {}).fetch("ZipCodeWithDistanceDTO", :not_found).fetch(1, {}).fetch("PostalCode", :not_found) == :not_found 
 				else	
 					j = JSON::parse(response.body)
 					raise "BAD API KEY" if j.first[1].first["PostalCode"] == nil 
 				#	["GetZipCodesInRadiusOfLatLongResult"] ==nil 
 				end
-					j
+				j
       elsif response.code == 404
         nil 
       else 
