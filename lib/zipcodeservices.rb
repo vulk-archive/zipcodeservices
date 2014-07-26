@@ -22,7 +22,7 @@ module ZipCodeServices
     def zipcode(zip) 
       #/{apikey}/{zipcode}
       response = Typhoeus::Request.get( "#{base_uri}/zipcodes.svc/#{apikey}/#{zip}") 
-      if response.code == 200 
+		 	if response.code == 200 
         if data_format == :xml
           j = MultiXml.parse(response.body)
           raise "BAD API KEY" if j.first[1].first[1]["City"] == nil
@@ -81,7 +81,6 @@ module ZipCodeServices
 				if data_format == :xml
 					j = MultiXml.parse(response.body) 
 					raise "BAD API KEY" if j.first[1].first[1]["DistanceAwayInMiles"] == nil
-				#	["RetrieveDistanceBetweenZipCodesResult"]["DistanceAwayInMiles"] == nil  
 				else
 					j = JSON::parse(response.body)
         	raise "BAD API KEY" if j.first[1]["ZipCode1"] == nil 
@@ -99,7 +98,6 @@ module ZipCodeServices
       if response.code == 200 
 				if data_format == :xml
 					j = MultiXml.parse(response.body) 
-					debugger
 					raise "BAD API KEY" if j.first[1].first[1].first[1][0]["Abbreviation"] == nil
 				else
 					j = JSON::parse(response.body)
@@ -115,10 +113,15 @@ module ZipCodeServices
 
     def states(country_id)
       response = Typhoeus::Request.get( "#{base_uri}/provinces.svc/#{apikey}/#{country_id}") 
-      if response.code == 200 
-        j = JSON::parse(response.body)
-        raise "BAD API KEY" if j["GetAllProvincesByCountryIdResult"] == nil 
-        j
+			if response.code == 200 
+				if data_format == :xml
+					j = MultiXml.parse(response.body) 
+					raise "BAD API KEY" if j.first[1].first[1].first[1][0]["Abbreviation"] == nil 
+				else
+					j = JSON::parse(response.body)
+					raise "BAD API KEY" if j["GetAllProvincesByCountryIdResult"] == nil 
+					j
+				end
       elsif response.code == 404
         nil 
       else 
@@ -131,9 +134,14 @@ module ZipCodeServices
       #/{apikey}/{zipcode}
       response = Typhoeus::Request.get( "#{base_uri}/cities.svc/#{apikey}/#{province_id}") 
       if response.code == 200 
-        j = JSON::parse(response.body)
-        raise "BAD API KEY" if j["GetCitiesByProvinceResult"] == nil 
-        j
+				if data_format == :xml
+					j = MultiXml.parse(response.body) 
+					raise "BAD API KEY" if j.first[1].first[1].first[1][0]["City"] == nil 
+				else
+					j = JSON::parse(response.body)
+					raise "BAD API KEY" if j["GetCitiesByProvinceResult"] == nil 
+					j
+				end
       elsif response.code == 404
         nil 
       else 
@@ -144,9 +152,14 @@ module ZipCodeServices
     def cities_by_state_and_country(province_id, country_id)
       response = Typhoeus::Request.get( "#{base_uri}/cities.svc/#{apikey}/#{province_id}/#{country_id}") 
       if response.code == 200 
-        j = JSON::parse(response.body)
-        raise "BAD API KEY" if j["GetCitiesByProvinceAndCountryResult"] == nil # NOTE: also happens when a province id is not valid for a country
-        j
+				if data_format == :xml
+					j = MultiXml.parse(response.body) 
+					raise "BAD API KEY" if j.first[1].first[1].first[1][20]["City"] == nil 
+				else
+					j = JSON::parse(response.body)
+					raise "BAD API KEY" if j["GetCitiesByProvinceAndCountryResult"] == nil # NOTE: also happens when a province id is not valid for a country
+					j
+				end
       elsif response.code == 404
         nil 
       else 
@@ -156,29 +169,38 @@ module ZipCodeServices
 
     def ipaddress(ip)
       response = Typhoeus::Request.get( "#{base_uri}/ipaddress.svc/GetIP?apikey=#{apikey}&ip=#{ip}") 
-      if response.code == 200 
-        j = JSON::parse(response.body)
-        raise "BAD API KEY" if j["RetrieveIPAddressDataResult"] == nil # NOTE: also happens when a province id is not valid for a country
-        j
+		 	if response.code == 200 
+				if data_format == :xml
+					j = MultiXml.parse(response.body) 
+					raise "BAD API KEY" if j.first[1].first[1]["ZipCode"] == nil 
+				else
+					j = JSON::parse(response.body)
+					raise "BAD API KEY" if j["RetrieveIPAddressDataResult"] == nil # NOTE: also happens when a province id is not valid for a country
+					j
+				end
       elsif response.code == 404
         nil 
       else 
-        raise response.body 
+				raise response.body 
       end 
     end
 
     def ipaddress_radius(ip, rad)
       response = Typhoeus::Request.get( "#{base_uri}/ipaddress.svc/GetZipsInRadiusOfIP?apikey=#{apikey}&ip=#{ip}&radius=#{rad}") 
-      if response.code == 200 
-        j = JSON::parse(response.body)
-        raise "BAD API KEY" if j["RetrieveZipCodesInRadiusOfIPResult"] == nil # NOTE: also happens when a province id is not valid for a country
-        j
+			if response.code == 200 
+				if data_format == :xml
+					j = MultiXml.parse(response.body) 
+					raise "BAD API KEY" if j.first[1].first[1]["PostalCode"] == nil 
+				else
+					j = JSON::parse(response.body)
+					raise "BAD API KEY" if j["RetrieveZipCodesInRadiusOfIPResult"] == nil # NOTE: also happens when a province id is not valid for a country
+					j
+				end
       elsif response.code == 404
         nil 
       else 
-        raise response.body 
+				raise response.body 
       end 
     end
-  end 
+	end
 end
-

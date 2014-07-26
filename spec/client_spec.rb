@@ -35,12 +35,12 @@ describe "json client" do
 
   it "should get states-provinces by country id", :vcr,  record: :new_episodes do
     states = ZipCodeServices.states(1)
-    states.first[1].first["Abbreviation"].should == "AL"
+		states.first[1].first["Abbreviation"].should == "AL"
   end
 
   it "should get cities by state id (province id)", :vcr,  record: :new_episodes do
     cities = ZipCodeServices.cities(200)
-    cities.first[1].first["City"].should == "Alamo"
+		cities.first[1].first["City"].should == "Alamo"
   end
 
   it "should get cities by state id (provinces id) and country id", :vcr,  record: :new_episodes do
@@ -91,31 +91,26 @@ describe "xml client" do
   end
 
   it "should get states-provinces by country id", :vcr,  record: :new_episodes do
-    pending
     states = ZipCodeServices.states(1)
-    states.first[1].first["Abbreviation"].should == "AL"
+    states.first[1].first[1].first[1][0]["Abbreviation"].should == "AL"
   end
 
   it "should get cities by state id (province id)", :vcr,  record: :new_episodes do
-    pending
     cities = ZipCodeServices.cities(200)
-    cities.first[1].first["City"].should == "Alamo"
+		cities.first[1].first[1].first[1][0]["City"].should == "Alamo"
   end
 
   it "should get cities by state id (provinces id) and country id", :vcr,  record: :new_episodes do
-    pending
     cities = ZipCodeServices.cities_by_state_and_country(1, 1)
-    cities.first[1][20]["City"].should == "Arlington"
+    cities.first[1].first[1].first[1][20]["City"].should == "Arlington"
   end
 
   it "should return information on ip addresses", :vcr, record: :new_episodes do 
-    pending
     data = ZipCodeServices.ipaddress("184.98.179.3")
     data.first[1]["ZipCode"].should == "85001"
   end
 
   it "should return zips in radius of ip address", :vcr, record: :new_episodes do 
-    pending
     data = ZipCodeServices.ipaddress_radius("184.98.179.3", 1)
     data.first[1].first["PostalCode"].should == "86323"
   end
