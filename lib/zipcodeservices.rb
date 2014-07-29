@@ -117,6 +117,7 @@ module ZipCodeServices
 				if data_format == :xml
 					j = MultiXml.parse(response.body) 
 					raise "BAD API KEY" if j.first[1].first[1].first[1][0]["Abbreviation"] == nil 
+          j
 				else
 					j = JSON::parse(response.body)
 					raise "BAD API KEY" if j["GetAllProvincesByCountryIdResult"] == nil 
@@ -137,6 +138,7 @@ module ZipCodeServices
 				if data_format == :xml
 					j = MultiXml.parse(response.body) 
 					raise "BAD API KEY" if j.first[1].first[1].first[1][0]["City"] == nil 
+          j
 				else
 					j = JSON::parse(response.body)
 					raise "BAD API KEY" if j["GetCitiesByProvinceResult"] == nil 
@@ -155,6 +157,7 @@ module ZipCodeServices
 				if data_format == :xml
 					j = MultiXml.parse(response.body) 
 					raise "BAD API KEY" if j.first[1].first[1].first[1][20]["City"] == nil 
+          j
 				else
 					j = JSON::parse(response.body)
 					raise "BAD API KEY" if j["GetCitiesByProvinceAndCountryResult"] == nil # NOTE: also happens when a province id is not valid for a country
@@ -172,10 +175,11 @@ module ZipCodeServices
 		 	if response.code == 200 
 				if data_format == :xml
 					j = MultiXml.parse(response.body) 
-					raise "BAD API KEY" if j.first[1].first[1]["ZipCode"] == nil 
+          raise "BAD API KEY" if j.first[1].first[1]["ZipCode"] == nil 
+          j
 				else
 					j = JSON::parse(response.body)
-					raise "BAD API KEY" if j["RetrieveIPAddressDataResult"] == nil # NOTE: also happens when a province id is not valid for a country
+          raise "BAD API KEY" if j["RetrieveIPAddressDataResult"] == nil # NOTE: also happens when a province id is not valid for a country
 					j
 				end
       elsif response.code == 404
@@ -190,7 +194,8 @@ module ZipCodeServices
 			if response.code == 200 
 				if data_format == :xml
 					j = MultiXml.parse(response.body) 
-					raise "BAD API KEY" if j.first[1].first[1]["PostalCode"] == nil 
+          raise "BAD API KEY" if j.first[1].first[1].first[1]["PostalCode"] == nil 
+          j
 				else
 					j = JSON::parse(response.body)
 					raise "BAD API KEY" if j["RetrieveZipCodesInRadiusOfIPResult"] == nil # NOTE: also happens when a province id is not valid for a country
