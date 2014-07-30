@@ -1,7 +1,7 @@
 Zipcode Services.
 =================
 
-This is a ruby library that interfaces Zip Code Services -- a IP Address and Zip Code database with Zip Code Distance Search and IP Address Distance Search APIs available to members.
+This is a ruby library that interfaces [Zip Code Services](https://www.zipcodeservices.com/) -- a IP Address and Zip Code database with Zip Code Distance Search and IP Address Distance Search APIs available to members.
 
 ---
 
@@ -34,5 +34,7 @@ Installation for contributors
 
 Please write tests for any changes you make or we will have our way with you
  
+## LICENSE
 
 
+Licensed under [MIT](http://vulk.mit-license.org/)
