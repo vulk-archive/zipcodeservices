@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.authors     = ["W Watson", "T Carpenter", "Jay Smith"]
   s.email       = 'wolfpack@vulk.com'
   s.files       = ["lib/zipcodeservices.rb"]
-  s.homepage    = 'htt://github.com/vulk/zipcodeservices'
+  s.homepage    = 'http://github.com/vulk/zipcodeservices'
   s.license       = 'MIT'
   s.required_ruby_version = '>= 1.9.3'
   s.files         = `git ls-files`.split("\n")
