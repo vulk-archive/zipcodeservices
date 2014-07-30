@@ -2,7 +2,7 @@ require 'rspec'
 require 'vcr'
 #require 'webmock/rspec'
 
-ZipCodeServices.apikey = ENV['ZIP_CODE_SERVICES_API_KEY'] || '20387d05-b825-44e7-b9ff-41d903cae6a9'
+ZipCodeServices.apikey = ENV['ZIP_CODE_SERVICES_API_KEY']
 
 VCR.configure do |c|
   c.allow_http_connections_when_no_cassette = true
