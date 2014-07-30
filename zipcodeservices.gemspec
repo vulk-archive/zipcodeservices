@@ -9,10 +9,10 @@ Gem::Specification.new do |s|
   s.date        = '2014-05-06'
   s.summary     = "zipcodeservices for zipcodeservices.com"
   s.description = "Ruby Client for zipcodeservices.com.  Gives ip address and radius queries.  Visit zipcodeservices.com for more details"
-  s.authors     = ["W Watson", "T Carpenter"]
+  s.authors     = ["W Watson", "T Carpenter", "Jay Smith"]
   s.email       = 'wolfpack@vulk.com'
   s.files       = ["lib/zipcodeservices.rb"]
-  s.homepage    = 'http://rubygems.org/gems/zipcodeservices'
+  s.homepage    = 'htt://github.com/vulk/zipcodeservices'
   s.license       = 'MIT'
   s.required_ruby_version = '>= 1.9.3'
   s.files         = `git ls-files`.split("\n")
@@ -22,10 +22,10 @@ Gem::Specification.new do |s|
 
   s.add_development_dependency 'rspec', ["~> 2.13"]
   s.add_development_dependency 'vcr',["~> 2.4"]
-  s.add_development_dependency 'guard-rspec'
-  s.add_development_dependency 'debugger'
+  s.add_development_dependency 'guard-rspec', ["~> 4.2"]
+  s.add_development_dependency 'debugger', '~> 0'
 
   s.add_runtime_dependency "typhoeus", "0.3.3"
-  s.add_runtime_dependency "multi_xml"
-  s.add_runtime_dependency "nokogiri"
+  s.add_runtime_dependency "multi_xml", ["~> 0.5"]
+  s.add_runtime_dependency "nokogiri", ["~> 1.6"]
 end
