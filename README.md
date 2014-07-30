@@ -13,7 +13,7 @@ gem install zipcodeservices
 
 Use
 ```
-ZipCodeServices.apikey = ENV['ZIP_CODE_SERVICES_API_KEY']
+ZipCodeServices.apikey = 'YOUR_ZIP_CODE_SERVICES_API_KEY'
 ZipCodeServices.data_format = :json
 zips = ZipCodeServices.zipcode("78702") 
 ```
