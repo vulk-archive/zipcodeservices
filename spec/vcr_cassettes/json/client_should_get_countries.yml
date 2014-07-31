@@ -2,6 +2,68 @@
 http_interactions:
 - request:
     method: get
+    uri: https://www.zipcodeservices.com/services/rest/json/countries.svc/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Content-Length:
+      - '1565'
+      Content-Type:
+      - text/html; charset=UTF-8
+      Server:
+      - Microsoft-IIS/7.5
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Thu, 31 Jul 2014 05:46:09 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwh
+        RE9DVFlQRSBodG1sIFBVQkxJQyAiLS8vVzNDLy9EVEQgWEhUTUwgMS4wIFRy
+        YW5zaXRpb25hbC8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9UUi94aHRtbDEv
+        RFREL3hodG1sMS10cmFuc2l0aW9uYWwuZHRkIj4NCjxodG1sIHhtbG5zPSJo
+        dHRwOi8vd3d3LnczLm9yZy8xOTk5L3hodG1sIj4NCiAgPGhlYWQ+DQogICAg
+        PHRpdGxlPlNlcnZpY2U8L3RpdGxlPg0KICAgIDxzdHlsZT5CT0RZIHsgY29s
+        b3I6ICMwMDAwMDA7IGJhY2tncm91bmQtY29sb3I6IHdoaXRlOyBmb250LWZh
+        bWlseTogVmVyZGFuYTsgbWFyZ2luLWxlZnQ6IDBweDsgbWFyZ2luLXRvcDog
+        MHB4OyB9ICNjb250ZW50IHsgbWFyZ2luLWxlZnQ6IDMwcHg7IGZvbnQtc2l6
+        ZTogLjcwZW07IHBhZGRpbmctYm90dG9tOiAyZW07IH0gQTpsaW5rIHsgY29s
+        b3I6ICMzMzY2OTk7IGZvbnQtd2VpZ2h0OiBib2xkOyB0ZXh0LWRlY29yYXRp
+        b246IHVuZGVybGluZTsgfSBBOnZpc2l0ZWQgeyBjb2xvcjogIzY2OTljYzsg
+        Zm9udC13ZWlnaHQ6IGJvbGQ7IHRleHQtZGVjb3JhdGlvbjogdW5kZXJsaW5l
+        OyB9IEE6YWN0aXZlIHsgY29sb3I6ICMzMzY2OTk7IGZvbnQtd2VpZ2h0OiBi
+        b2xkOyB0ZXh0LWRlY29yYXRpb246IHVuZGVybGluZTsgfSAuaGVhZGluZzEg
+        eyBiYWNrZ3JvdW5kLWNvbG9yOiAjMDAzMzY2OyBib3JkZXItYm90dG9tOiAj
+        MzM2Njk5IDZweCBzb2xpZDsgY29sb3I6ICNmZmZmZmY7IGZvbnQtZmFtaWx5
+        OiBUYWhvbWE7IGZvbnQtc2l6ZTogMjZweDsgZm9udC13ZWlnaHQ6IG5vcm1h
+        bDttYXJnaW46IDBlbSAwZW0gMTBweCAtMjBweDsgcGFkZGluZy1ib3R0b206
+        IDhweDsgcGFkZGluZy1sZWZ0OiAzMHB4O3BhZGRpbmctdG9wOiAxNnB4O30g
+        cHJlIHsgZm9udC1zaXplOnNtYWxsOyBiYWNrZ3JvdW5kLWNvbG9yOiAjZTVl
+        NWNjOyBwYWRkaW5nOiA1cHg7IGZvbnQtZmFtaWx5OiBDb3VyaWVyIE5ldzsg
+        bWFyZ2luLXRvcDogMHB4OyBib3JkZXI6IDFweCAjZjBmMGUwIHNvbGlkOyB3
+        aGl0ZS1zcGFjZTogcHJlLXdyYXA7IHdoaXRlLXNwYWNlOiAtcHJlLXdyYXA7
+        IHdvcmQtd3JhcDogYnJlYWstd29yZDsgfSB0YWJsZSB7IGJvcmRlci1jb2xs
+        YXBzZTogY29sbGFwc2U7IGJvcmRlci1zcGFjaW5nOiAwcHg7IGZvbnQtZmFt
+        aWx5OiBWZXJkYW5hO30gdGFibGUgdGggeyBib3JkZXItcmlnaHQ6IDJweCB3
+        aGl0ZSBzb2xpZDsgYm9yZGVyLWJvdHRvbTogMnB4IHdoaXRlIHNvbGlkOyBm
+        b250LXdlaWdodDogYm9sZDsgYmFja2dyb3VuZC1jb2xvcjogI2NlY2Y5Yzt9
+        IHRhYmxlIHRkIHsgYm9yZGVyLXJpZ2h0OiAycHggd2hpdGUgc29saWQ7IGJv
+        cmRlci1ib3R0b206IDJweCB3aGl0ZSBzb2xpZDsgYmFja2dyb3VuZC1jb2xv
+        cjogI2U1ZTVjYzt9PC9zdHlsZT4NCiAgPC9oZWFkPg0KICA8Ym9keT4NCiAg
+        ICA8ZGl2IGlkPSJjb250ZW50Ij4NCiAgICAgIDxwIGNsYXNzPSJoZWFkaW5n
+        MSI+U2VydmljZTwvcD4NCiAgICAgIDxwPkVuZHBvaW50IG5vdCBmb3VuZC48
+        L3A+DQogICAgPC9kaXY+DQogIDwvYm9keT4NCjwvaHRtbD4=
+    http_version: '1.1'
+  recorded_at: Thu, 31 Jul 2014 05:46:36 GMT
+- request:
+    method: get
     uri: https://www.zipcodeservices.com/services/rest/json/countries.svc/<API_KEY>
     body:
       encoding: US-ASCII
@@ -21,7 +83,7 @@ http_interactions:
       X-Powered-By:
       - ASP.NET
       Date:
-      - Thu, 31 Jul 2014 03:34:28 GMT
+      - Thu, 31 Jul 2014 15:39:19 GMT
     body:
       encoding: ASCII-8BIT
       string: '{"GetCountriesResult":[{"Abbreviation":"US","Abbreviation3Char":"USA","Continent":"North
@@ -136,67 +198,5 @@ http_interactions:
         People''s Republic Of Korea"},{"Abbreviation":"PL","Abbreviation3Char":null,"Continent":"Europe","ContinentCode":"EU","ISONumericCode":null,"Id":233,"Name":"Poland"},{"Abbreviation":"MG","Abbreviation3Char":null,"Continent":"Africa","ContinentCode":"AF","ISONumericCode":null,"Id":234,"Name":"Madagascar"},{"Abbreviation":"GE","Abbreviation3Char":null,"Continent":"Europe","ContinentCode":"EU","ISONumericCode":null,"Id":235,"Name":"Georgia"},{"Abbreviation":"GW","Abbreviation3Char":null,"Continent":"Africa","ContinentCode":"AF","ISONumericCode":null,"Id":236,"Name":"Guinea-bissau"},{"Abbreviation":"QA","Abbreviation3Char":null,"Continent":"Middle
         East","ContinentCode":"ME","ISONumericCode":null,"Id":237,"Name":"Qatar"},{"Abbreviation":"UG","Abbreviation3Char":null,"Continent":"Africa","ContinentCode":"AF","ISONumericCode":null,"Id":238,"Name":"Uganda"},{"Abbreviation":"IS","Abbreviation3Char":null,"Continent":"Europe","ContinentCode":"EU","ISONumericCode":null,"Id":239,"Name":"Iceland"},{"Abbreviation":"MN","Abbreviation3Char":null,"Continent":"Asia","ContinentCode":"AS","ISONumericCode":null,"Id":240,"Name":"Mongolia"},{"Abbreviation":"CU","Abbreviation3Char":null,"Continent":"Caribbean","ContinentCode":"CB","ISONumericCode":null,"Id":241,"Name":"Cuba"},{"Abbreviation":"VU","Abbreviation3Char":null,"Continent":"Oceania","ContinentCode":"OC","ISONumericCode":null,"Id":242,"Name":"Vanuatu"}]}'
     http_version: '1.1'
-  recorded_at: Thu, 31 Jul 2014 03:34:55 GMT
-- request:
-    method: get
-    uri: https://www.zipcodeservices.com/services/rest/json/countries.svc/
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers: {}
-  response:
-    status:
-      code: 404
-      message: Not Found
-    headers:
-      Content-Length:
-      - '1565'
-      Content-Type:
-      - text/html; charset=UTF-8
-      Server:
-      - Microsoft-IIS/7.5
-      X-Powered-By:
-      - ASP.NET
-      Date:
-      - Thu, 31 Jul 2014 05:46:09 GMT
-    body:
-      encoding: ASCII-8BIT
-      string: !binary |-
-        77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwh
-        RE9DVFlQRSBodG1sIFBVQkxJQyAiLS8vVzNDLy9EVEQgWEhUTUwgMS4wIFRy
-        YW5zaXRpb25hbC8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9UUi94aHRtbDEv
-        RFREL3hodG1sMS10cmFuc2l0aW9uYWwuZHRkIj4NCjxodG1sIHhtbG5zPSJo
-        dHRwOi8vd3d3LnczLm9yZy8xOTk5L3hodG1sIj4NCiAgPGhlYWQ+DQogICAg
-        PHRpdGxlPlNlcnZpY2U8L3RpdGxlPg0KICAgIDxzdHlsZT5CT0RZIHsgY29s
-        b3I6ICMwMDAwMDA7IGJhY2tncm91bmQtY29sb3I6IHdoaXRlOyBmb250LWZh
-        bWlseTogVmVyZGFuYTsgbWFyZ2luLWxlZnQ6IDBweDsgbWFyZ2luLXRvcDog
-        MHB4OyB9ICNjb250ZW50IHsgbWFyZ2luLWxlZnQ6IDMwcHg7IGZvbnQtc2l6
-        ZTogLjcwZW07IHBhZGRpbmctYm90dG9tOiAyZW07IH0gQTpsaW5rIHsgY29s
-        b3I6ICMzMzY2OTk7IGZvbnQtd2VpZ2h0OiBib2xkOyB0ZXh0LWRlY29yYXRp
-        b246IHVuZGVybGluZTsgfSBBOnZpc2l0ZWQgeyBjb2xvcjogIzY2OTljYzsg
-        Zm9udC13ZWlnaHQ6IGJvbGQ7IHRleHQtZGVjb3JhdGlvbjogdW5kZXJsaW5l
-        OyB9IEE6YWN0aXZlIHsgY29sb3I6ICMzMzY2OTk7IGZvbnQtd2VpZ2h0OiBi
-        b2xkOyB0ZXh0LWRlY29yYXRpb246IHVuZGVybGluZTsgfSAuaGVhZGluZzEg
-        eyBiYWNrZ3JvdW5kLWNvbG9yOiAjMDAzMzY2OyBib3JkZXItYm90dG9tOiAj
-        MzM2Njk5IDZweCBzb2xpZDsgY29sb3I6ICNmZmZmZmY7IGZvbnQtZmFtaWx5
-        OiBUYWhvbWE7IGZvbnQtc2l6ZTogMjZweDsgZm9udC13ZWlnaHQ6IG5vcm1h
-        bDttYXJnaW46IDBlbSAwZW0gMTBweCAtMjBweDsgcGFkZGluZy1ib3R0b206
-        IDhweDsgcGFkZGluZy1sZWZ0OiAzMHB4O3BhZGRpbmctdG9wOiAxNnB4O30g
-        cHJlIHsgZm9udC1zaXplOnNtYWxsOyBiYWNrZ3JvdW5kLWNvbG9yOiAjZTVl
-        NWNjOyBwYWRkaW5nOiA1cHg7IGZvbnQtZmFtaWx5OiBDb3VyaWVyIE5ldzsg
-        bWFyZ2luLXRvcDogMHB4OyBib3JkZXI6IDFweCAjZjBmMGUwIHNvbGlkOyB3
-        aGl0ZS1zcGFjZTogcHJlLXdyYXA7IHdoaXRlLXNwYWNlOiAtcHJlLXdyYXA7
-        IHdvcmQtd3JhcDogYnJlYWstd29yZDsgfSB0YWJsZSB7IGJvcmRlci1jb2xs
-        YXBzZTogY29sbGFwc2U7IGJvcmRlci1zcGFjaW5nOiAwcHg7IGZvbnQtZmFt
-        aWx5OiBWZXJkYW5hO30gdGFibGUgdGggeyBib3JkZXItcmlnaHQ6IDJweCB3
-        aGl0ZSBzb2xpZDsgYm9yZGVyLWJvdHRvbTogMnB4IHdoaXRlIHNvbGlkOyBm
-        b250LXdlaWdodDogYm9sZDsgYmFja2dyb3VuZC1jb2xvcjogI2NlY2Y5Yzt9
-        IHRhYmxlIHRkIHsgYm9yZGVyLXJpZ2h0OiAycHggd2hpdGUgc29saWQ7IGJv
-        cmRlci1ib3R0b206IDJweCB3aGl0ZSBzb2xpZDsgYmFja2dyb3VuZC1jb2xv
-        cjogI2U1ZTVjYzt9PC9zdHlsZT4NCiAgPC9oZWFkPg0KICA8Ym9keT4NCiAg
-        ICA8ZGl2IGlkPSJjb250ZW50Ij4NCiAgICAgIDxwIGNsYXNzPSJoZWFkaW5n
-        MSI+U2VydmljZTwvcD4NCiAgICAgIDxwPkVuZHBvaW50IG5vdCBmb3VuZC48
-        L3A+DQogICAgPC9kaXY+DQogIDwvYm9keT4NCjwvaHRtbD4=
-    http_version: '1.1'
-  recorded_at: Thu, 31 Jul 2014 05:46:36 GMT
+  recorded_at: Thu, 31 Jul 2014 15:39:23 GMT
 recorded_with: VCR 2.9.2

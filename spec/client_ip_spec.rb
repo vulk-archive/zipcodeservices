@@ -1,6 +1,9 @@
 require 'ipaddressservices'
 require 'spec_helper'
 
+IpAddressServices.apikey = ENV['IP_ADDRESS_SERVICES_API_KEY']
+
+
 describe "json client" do 
   before(:each) do
     IpAddressServices.data_format = :json

@@ -1,6 +1,8 @@
 require 'zipcodeservices'
 require 'spec_helper'
 
+ZipCodeServices.apikey = 	ENV['ZIP_CODE_SERVICES_API_KEY'] 
+
 describe "json client" do 
   before(:each) do
     ZipCodeServices.data_format = :json

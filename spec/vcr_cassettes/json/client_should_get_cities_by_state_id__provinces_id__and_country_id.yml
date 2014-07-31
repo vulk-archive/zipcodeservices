@@ -2,6 +2,33 @@
 http_interactions:
 - request:
     method: get
+    uri: https://www.zipcodeservices.com/services/rest/json/cities.svc//1/1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '34'
+      Content-Type:
+      - application/json; charset=utf-8
+      Server:
+      - Microsoft-IIS/7.5
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Thu, 31 Jul 2014 05:46:09 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: '{"GetCitiesByProvinceResult":null}'
+    http_version: '1.1'
+  recorded_at: Thu, 31 Jul 2014 05:46:36 GMT
+- request:
+    method: get
     uri: https://www.zipcodeservices.com/services/rest/json/cities.svc/<API_KEY>/1/1
     body:
       encoding: US-ASCII
@@ -21,7 +48,7 @@ http_interactions:
       X-Powered-By:
       - ASP.NET
       Date:
-      - Thu, 31 Jul 2014 03:34:28 GMT
+      - Thu, 31 Jul 2014 15:39:19 GMT
     body:
       encoding: ASCII-8BIT
       string: '{"GetCitiesByProvinceAndCountryResult":[{"City":"","Country":"United
@@ -472,32 +499,5 @@ http_interactions:
         States","CountryAbbreviation":"US","CountryId":1,"County":"Barbour","Id":38384,"Province":"Alabama","ProvinceAbbreviation":"AL","ProvinceId":1},{"City":"Natural
         Bridge","Country":"United States","CountryAbbreviation":"US","CountryId":1,"County":null,"Id":38385,"Province":"Alabama","ProvinceAbbreviation":"AL","ProvinceId":1}]}'
     http_version: '1.1'
-  recorded_at: Thu, 31 Jul 2014 03:34:55 GMT
-- request:
-    method: get
-    uri: https://www.zipcodeservices.com/services/rest/json/cities.svc//1/1
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers: {}
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Length:
-      - '34'
-      Content-Type:
-      - application/json; charset=utf-8
-      Server:
-      - Microsoft-IIS/7.5
-      X-Powered-By:
-      - ASP.NET
-      Date:
-      - Thu, 31 Jul 2014 05:46:09 GMT
-    body:
-      encoding: ASCII-8BIT
-      string: '{"GetCitiesByProvinceResult":null}'
-    http_version: '1.1'
-  recorded_at: Thu, 31 Jul 2014 05:46:36 GMT
+  recorded_at: Thu, 31 Jul 2014 15:39:23 GMT
 recorded_with: VCR 2.9.2

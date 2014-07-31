@@ -2,50 +2,6 @@
 http_interactions:
 - request:
     method: get
-    uri: https://www.zipcodeservices.com/services/rest/json/zipcodes.svc/GetZipCodesInRadiusLatLong?apikey=<API_KEY>&latitude=30.2645715&longitude=-97.7284341&radius=1
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers: {}
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Length:
-      - '4800'
-      Content-Type:
-      - application/json; charset=utf-8
-      Server:
-      - Microsoft-IIS/7.5
-      X-Powered-By:
-      - ASP.NET
-      Date:
-      - Thu, 31 Jul 2014 03:34:28 GMT
-    body:
-      encoding: ASCII-8BIT
-      string: '{"GetZipCodesInRadiusOfLatLongResult":[{"City":"AUSTIN","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryCode":"US","County":"TRAVIS","DistanceAwayInKilometers":1.38724464264,"DistanceAwayInMiles":0.861996,"Latitude":30.267164,"Longitude":-97.742561,"PostalCode":"73301","State":"OK"},{"City":"AUSTIN","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryCode":"US","County":"TRAVIS","DistanceAwayInKilometers":1.38724464264,"DistanceAwayInMiles":0.861996,"Latitude":30.267164,"Longitude":-97.742561,"PostalCode":"73344","State":"OK"},{"City":"Austin","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryCode":"US","County":"Travis","DistanceAwayInKilometers":1.38724464264,"DistanceAwayInMiles":0.861996,"Latitude":30.267164,"Longitude":-97.742561,"PostalCode":"78710","State":"TX"},{"City":"Austin","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryCode":"US","County":"Travis","DistanceAwayInKilometers":1.38724464264,"DistanceAwayInMiles":0.861996,"Latitude":30.267164,"Longitude":-97.742561,"PostalCode":"78760","State":"TX"},{"City":"Austin","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryCode":"US","County":"Travis","DistanceAwayInKilometers":1.38724464264,"DistanceAwayInMiles":0.861996,"Latitude":30.267164,"Longitude":-97.742561,"PostalCode":"78761","State":"TX"},{"City":"Austin","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryCode":"US","County":"Travis","DistanceAwayInKilometers":1.38724464264,"DistanceAwayInMiles":0.861996,"Latitude":30.267164,"Longitude":-97.742561,"PostalCode":"78762","State":"TX"},{"City":"Austin","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryCode":"US","County":"Travis","DistanceAwayInKilometers":1.38724464264,"DistanceAwayInMiles":0.861996,"Latitude":30.267164,"Longitude":-97.742561,"PostalCode":"78765","State":"TX"},{"City":"Austin","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryCode":"US","County":"Travis","DistanceAwayInKilometers":1.38724464264,"DistanceAwayInMiles":0.861996,"Latitude":30.267164,"Longitude":-97.742561,"PostalCode":"78766","State":"TX"},{"City":"Austin","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryCode":"US","County":"Travis","DistanceAwayInKilometers":1.38724464264,"DistanceAwayInMiles":0.861996,"Latitude":30.267164,"Longitude":-97.742561,"PostalCode":"78768","State":"TX"},{"City":"Austin","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryCode":"US","County":"Travis","DistanceAwayInKilometers":1.38724464264,"DistanceAwayInMiles":0.861996,"Latitude":30.267164,"Longitude":-97.742561,"PostalCode":"78779","State":"TX"},{"City":"Austin","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryCode":"US","County":"Travis","DistanceAwayInKilometers":1.38724464264,"DistanceAwayInMiles":0.861996,"Latitude":30.267164,"Longitude":-97.742561,"PostalCode":"78780","State":"TX"},{"City":"Austin","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryCode":"US","County":"Travis","DistanceAwayInKilometers":1.38724464264,"DistanceAwayInMiles":0.861996,"Latitude":30.267164,"Longitude":-97.742561,"PostalCode":"78781","State":"TX"},{"City":"Austin","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryCode":"US","County":"Travis","DistanceAwayInKilometers":1.38724464264,"DistanceAwayInMiles":0.861996,"Latitude":30.267164,"Longitude":-97.742561,"PostalCode":"78783","State":"TX"},{"City":"Austin","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryCode":"US","County":"Travis","DistanceAwayInKilometers":1.38724464264,"DistanceAwayInMiles":0.861996,"Latitude":30.267164,"Longitude":-97.742561,"PostalCode":"78785","State":"TX"},{"City":"Austin","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryCode":"US","County":"Travis","DistanceAwayInKilometers":1.38724464264,"DistanceAwayInMiles":0.861996,"Latitude":30.267164,"Longitude":-97.742561,"PostalCode":"78786","State":"TX"},{"City":"Austin","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryCode":"US","County":"Travis","DistanceAwayInKilometers":1.38724464264,"DistanceAwayInMiles":0.861996,"Latitude":30.267164,"Longitude":-97.742561,"PostalCode":"78788","State":"TX"},{"City":"Austin","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryCode":"US","County":"Travis","DistanceAwayInKilometers":1.38724464264,"DistanceAwayInMiles":0.861996,"Latitude":30.267164,"Longitude":-97.742561,"PostalCode":"78789","State":"TX"}]}'
-    http_version: '1.1'
-  recorded_at: Thu, 31 Jul 2014 03:34:55 GMT
-- request:
-    method: get
     uri: https://www.zipcodeservices.com/services/rest/json/zipcodes.svc/<API_KEY>/184.98.179.3/1
     body:
       encoding: US-ASCII
@@ -160,4 +116,48 @@ http_interactions:
       string: '{"GetZipCodesInRadiusOfLatLongResult":null}'
     http_version: '1.1'
   recorded_at: Thu, 31 Jul 2014 05:46:36 GMT
+- request:
+    method: get
+    uri: https://www.zipcodeservices.com/services/rest/json/zipcodes.svc/GetZipCodesInRadiusLatLong?apikey=<API_KEY>&latitude=30.2645715&longitude=-97.7284341&radius=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '4800'
+      Content-Type:
+      - application/json; charset=utf-8
+      Server:
+      - Microsoft-IIS/7.5
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Thu, 31 Jul 2014 15:39:19 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: '{"GetZipCodesInRadiusOfLatLongResult":[{"City":"AUSTIN","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryCode":"US","County":"TRAVIS","DistanceAwayInKilometers":1.38724464264,"DistanceAwayInMiles":0.861996,"Latitude":30.267164,"Longitude":-97.742561,"PostalCode":"73301","State":"OK"},{"City":"AUSTIN","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryCode":"US","County":"TRAVIS","DistanceAwayInKilometers":1.38724464264,"DistanceAwayInMiles":0.861996,"Latitude":30.267164,"Longitude":-97.742561,"PostalCode":"73344","State":"OK"},{"City":"Austin","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryCode":"US","County":"Travis","DistanceAwayInKilometers":1.38724464264,"DistanceAwayInMiles":0.861996,"Latitude":30.267164,"Longitude":-97.742561,"PostalCode":"78710","State":"TX"},{"City":"Austin","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryCode":"US","County":"Travis","DistanceAwayInKilometers":1.38724464264,"DistanceAwayInMiles":0.861996,"Latitude":30.267164,"Longitude":-97.742561,"PostalCode":"78760","State":"TX"},{"City":"Austin","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryCode":"US","County":"Travis","DistanceAwayInKilometers":1.38724464264,"DistanceAwayInMiles":0.861996,"Latitude":30.267164,"Longitude":-97.742561,"PostalCode":"78761","State":"TX"},{"City":"Austin","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryCode":"US","County":"Travis","DistanceAwayInKilometers":1.38724464264,"DistanceAwayInMiles":0.861996,"Latitude":30.267164,"Longitude":-97.742561,"PostalCode":"78762","State":"TX"},{"City":"Austin","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryCode":"US","County":"Travis","DistanceAwayInKilometers":1.38724464264,"DistanceAwayInMiles":0.861996,"Latitude":30.267164,"Longitude":-97.742561,"PostalCode":"78765","State":"TX"},{"City":"Austin","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryCode":"US","County":"Travis","DistanceAwayInKilometers":1.38724464264,"DistanceAwayInMiles":0.861996,"Latitude":30.267164,"Longitude":-97.742561,"PostalCode":"78766","State":"TX"},{"City":"Austin","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryCode":"US","County":"Travis","DistanceAwayInKilometers":1.38724464264,"DistanceAwayInMiles":0.861996,"Latitude":30.267164,"Longitude":-97.742561,"PostalCode":"78768","State":"TX"},{"City":"Austin","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryCode":"US","County":"Travis","DistanceAwayInKilometers":1.38724464264,"DistanceAwayInMiles":0.861996,"Latitude":30.267164,"Longitude":-97.742561,"PostalCode":"78779","State":"TX"},{"City":"Austin","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryCode":"US","County":"Travis","DistanceAwayInKilometers":1.38724464264,"DistanceAwayInMiles":0.861996,"Latitude":30.267164,"Longitude":-97.742561,"PostalCode":"78780","State":"TX"},{"City":"Austin","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryCode":"US","County":"Travis","DistanceAwayInKilometers":1.38724464264,"DistanceAwayInMiles":0.861996,"Latitude":30.267164,"Longitude":-97.742561,"PostalCode":"78781","State":"TX"},{"City":"Austin","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryCode":"US","County":"Travis","DistanceAwayInKilometers":1.38724464264,"DistanceAwayInMiles":0.861996,"Latitude":30.267164,"Longitude":-97.742561,"PostalCode":"78783","State":"TX"},{"City":"Austin","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryCode":"US","County":"Travis","DistanceAwayInKilometers":1.38724464264,"DistanceAwayInMiles":0.861996,"Latitude":30.267164,"Longitude":-97.742561,"PostalCode":"78785","State":"TX"},{"City":"Austin","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryCode":"US","County":"Travis","DistanceAwayInKilometers":1.38724464264,"DistanceAwayInMiles":0.861996,"Latitude":30.267164,"Longitude":-97.742561,"PostalCode":"78786","State":"TX"},{"City":"Austin","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryCode":"US","County":"Travis","DistanceAwayInKilometers":1.38724464264,"DistanceAwayInMiles":0.861996,"Latitude":30.267164,"Longitude":-97.742561,"PostalCode":"78788","State":"TX"},{"City":"Austin","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryCode":"US","County":"Travis","DistanceAwayInKilometers":1.38724464264,"DistanceAwayInMiles":0.861996,"Latitude":30.267164,"Longitude":-97.742561,"PostalCode":"78789","State":"TX"}]}'
+    http_version: '1.1'
+  recorded_at: Thu, 31 Jul 2014 15:39:23 GMT
 recorded_with: VCR 2.9.2
