@@ -115,3 +115,16 @@ describe "xml client" do
     data.first[1].first[1].first[1]["PostalCode"].should == "86323"
   end
 end
+
+describe "json client for ip services" do                                                       
+  before(:each) do
+    ZipCodeServices.data_format = :json                                                         
+  end                                                                                           
+  
+  it "should retrieve address information for an ip address", :vcr, record: :all do             
+    ip_address = ZipCodeServices.get_ip("184.98.179.3")                                         
+    ip_address.first[1]["City"].should == "Phoenix"                                             
+    # test other item                                                                           
+  end  
+                                                                                           
+end
