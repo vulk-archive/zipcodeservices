@@ -1,0 +1,36 @@
+require 'ipaddressservices'
+require 'spec_helper'
+
+describe "json client" do 
+  before(:each) do
+    IpAddressServices.data_format = :json
+  end
+
+  it "should retrieve ip address info", :vcr, record: :all do 
+    zips = IpAddressServices.zip_by_ip("184.98.179.3") 
+		zips.first[1]["City"].should == "Phoenix" 
+    # test other item 
+  end
+
+  it "should get zip codes in radius of ip address", :vcr,  record: :all do
+    zips = IpAddressServices.radius_by_ip("184.98.179.3", 1)
+	 	zips.first[1].first["PostalCode"].should == "86323"
+  end
+end
+
+describe "xml client" do 
+  before(:each) do
+    IpAddressServices.data_format = :xml
+  end
+
+  it "should retrieve ip address info", :vcr, record: :all do 
+    zips = IpAddressServices.zip_by_ip("184.98.179.3") 
+		zips.first[1].first[1]["City"].should == "Phoenix" 
+    # test other item 
+  end
+
+  it "should get zip codes in radius of ip address", :vcr,  record: :all do
+    zips = IpAddressServices.radius_by_ip("184.98.179.3", 1)
+	 	zips.first[1].first[1].first[1]["PostalCode"].should == "86323"
+  end
+end
