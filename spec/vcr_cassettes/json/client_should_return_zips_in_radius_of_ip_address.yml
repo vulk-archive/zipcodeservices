@@ -2,6 +2,33 @@
 http_interactions:
 - request:
     method: get
+    uri: https://www.zipcodeservices.com/services/rest/json/ipaddress.svc/GetZipsInRadiusOfIP?apikey=&ip=184.98.179.3&radius=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '43'
+      Content-Type:
+      - application/json; charset=utf-8
+      Server:
+      - Microsoft-IIS/7.5
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Thu, 31 Jul 2014 05:46:09 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: '{"RetrieveZipCodesInRadiusOfIPResult":null}'
+    http_version: '1.1'
+  recorded_at: Thu, 31 Jul 2014 05:46:36 GMT
+- request:
+    method: get
     uri: https://www.zipcodeservices.com/services/rest/json/ipaddress.svc/GetZipsInRadiusOfIP?apikey=<API_KEY>&ip=184.98.179.3&radius=1
     body:
       encoding: US-ASCII
@@ -10,36 +37,22 @@ http_interactions:
   response:
     status:
       code: 200
-      message: !binary |-
-        T0s=
+      message: OK
     headers:
-      !binary "Q29udGVudC1MZW5ndGg=":
-      - !binary |-
-        MzI4
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        YXBwbGljYXRpb24vanNvbjsgY2hhcnNldD11dGYtOA==
-      !binary "U2VydmVy":
-      - !binary |-
-        TWljcm9zb2Z0LUlJUy83LjU=
-      !binary "WC1Qb3dlcmVkLUJ5":
-      - !binary |-
-        QVNQLk5FVA==
-      !binary "RGF0ZQ==":
-      - !binary |-
-        V2VkLCAzMCBKdWwgMjAxNCAwMjoyNzoyNyBHTVQ=
+      Content-Length:
+      - '328'
+      Content-Type:
+      - application/json; charset=utf-8
+      Server:
+      - Microsoft-IIS/7.5
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Thu, 31 Jul 2014 15:39:19 GMT
     body:
       encoding: ASCII-8BIT
-      string: !binary |-
-        eyJSZXRyaWV2ZVppcENvZGVzSW5SYWRpdXNPZklQUmVzdWx0IjpbeyJDaXR5
-        IjoiQ2hpbm8gVmFsbGV5IiwiQ29udGluZW50IjoiTm9ydGggQW1lcmljYSIs
-        IkNvbnRpbmVudENvZGUiOiJOQSIsIkNvdW50cnkiOiJVbml0ZWQgU3RhdGVz
-        IiwiQ291bnRyeUNvZGUiOiJVUyIsIkNvdW50eSI6IllhdmFwYWkiLCJEaXN0
-        YW5jZUF3YXlJbktpbG9tZXRlcnMiOjAuMDAwMDk0OTUxMDYsIkRpc3RhbmNl
-        QXdheUluTWlsZXMiOjAuMDAwMDU5LCJMYXRpdHVkZSI6MzQuODI0NTAwLCJM
-        b25naXR1ZGUiOi0xMTIuNDU5NTAwLCJQb3N0YWxDb2RlIjoiODYzMjMiLCJT
-        dGF0ZSI6IkFaIn1dfQ==
-    http_version: !binary |-
-      MS4x
-  recorded_at: Wed, 30 Jul 2014 02:27:49 GMT
-recorded_with: VCR 2.2.4
+      string: '{"RetrieveZipCodesInRadiusOfIPResult":[{"City":"Chino Valley","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryCode":"US","County":"Yavapai","DistanceAwayInKilometers":0.00009495106,"DistanceAwayInMiles":0.000059,"Latitude":34.824500,"Longitude":-112.459500,"PostalCode":"86323","State":"AZ"}]}'
+    http_version: '1.1'
+  recorded_at: Thu, 31 Jul 2014 15:39:23 GMT
+recorded_with: VCR 2.9.2
