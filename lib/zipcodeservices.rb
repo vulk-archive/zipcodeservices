@@ -19,24 +19,6 @@ module ZipCodeServices
       "#{@base_uri}/#{fmt}"
     end
 
-    def get_ip(ip)
-      response = Typhoeus::Request.get( "#{base_uri}/ipaddress.svc/GetIp?apikey=#{apikey}&ip=#{ip}")   
-      if response.code == 200                                                                   
-        if data_format == :xml                                                                  
-          j = MultiXml.parse(response.body)
-          raise "BAD API KEY" if j.first[1].first[1]["City"] == nil                             
-        else
-          j = JSON::parse(response.body)                                                        
-          raise "BAD API KEY" if j.first[1]["City"] == nil                                      
-        end                                                                                     
-        j
-      elsif response.code == 404                                                                
-        nil 
-      else                                                                                      
-        raise response.body                                                                     
-      end 
-    end
-
     def zipcode(zip) 
       #/{apikey}/{zipcode}
       response = Typhoeus::Request.get( "#{base_uri}/zipcodes.svc/#{apikey}/#{zip}") 

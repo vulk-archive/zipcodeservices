@@ -89,7 +89,7 @@ http_interactions:
         QVNQLk5FVA==
       !binary "RGF0ZQ==":
       - !binary |-
-        VGh1LCAzMSBKdWwgMjAxNCAxOTo1Nzo1OCBHTVQ=
+        VGh1LCAzMSBKdWwgMjAxNCAyMzo1NjoxMSBHTVQ=
     body:
       encoding: ASCII-8BIT
       string: !binary |-
@@ -148,5 +148,5 @@ http_interactions:
         IiwiUHJvdmluY2VJZCI6MjAwfV19
     http_version: !binary |-
       MS4x
-  recorded_at: Thu, 31 Jul 2014 19:58:00 GMT
+  recorded_at: Thu, 31 Jul 2014 23:56:14 GMT
 recorded_with: VCR 2.2.4
