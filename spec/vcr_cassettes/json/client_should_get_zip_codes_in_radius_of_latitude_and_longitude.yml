@@ -24,7 +24,13 @@ http_interactions:
       - Thu, 31 Jul 2014 04:44:19 GMT
     body:
       encoding: ASCII-8BIT
-      string: '{"RetrieveZipCodesInRadiusResult":[{"City":"","Continent":"","ContinentCode":"","Country":"","CountryCode":"","County":"","DistanceAwayInKilometers":0.0,"DistanceAwayInMiles":0.0,"Latitude":0.0,"Longitude":0.0,"PostalCode":"","State":""}]}'
+      string: !binary |-
+        eyJSZXRyaWV2ZVppcENvZGVzSW5SYWRpdXNSZXN1bHQiOlt7IkNpdHkiOiIi
+        LCJDb250aW5lbnQiOiIiLCJDb250aW5lbnRDb2RlIjoiIiwiQ291bnRyeSI6
+        IiIsIkNvdW50cnlDb2RlIjoiIiwiQ291bnR5IjoiIiwiRGlzdGFuY2VBd2F5
+        SW5LaWxvbWV0ZXJzIjowLjAsIkRpc3RhbmNlQXdheUluTWlsZXMiOjAuMCwi
+        TGF0aXR1ZGUiOjAuMCwiTG9uZ2l0dWRlIjowLjAsIlBvc3RhbENvZGUiOiIi
+        LCJTdGF0ZSI6IiJ9XX0=
     http_version: '1.1'
   recorded_at: Thu, 31 Jul 2014 04:44:47 GMT
 - request:
@@ -113,7 +119,8 @@ http_interactions:
       - Thu, 31 Jul 2014 05:46:09 GMT
     body:
       encoding: ASCII-8BIT
-      string: '{"GetZipCodesInRadiusOfLatLongResult":null}'
+      string: !binary |-
+        eyJHZXRaaXBDb2Rlc0luUmFkaXVzT2ZMYXRMb25nUmVzdWx0IjpudWxsfQ==
     http_version: '1.1'
   recorded_at: Thu, 31 Jul 2014 05:46:36 GMT
 - request:
@@ -126,38 +133,135 @@ http_interactions:
   response:
     status:
       code: 200
-      message: OK
+      message: !binary |-
+        T0s=
     headers:
-      Content-Length:
-      - '4800'
-      Content-Type:
-      - application/json; charset=utf-8
-      Server:
-      - Microsoft-IIS/7.5
-      X-Powered-By:
-      - ASP.NET
-      Date:
-      - Thu, 31 Jul 2014 15:39:19 GMT
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        NDgwMA==
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbjsgY2hhcnNldD11dGYtOA==
+      !binary "U2VydmVy":
+      - !binary |-
+        TWljcm9zb2Z0LUlJUy83LjU=
+      !binary "WC1Qb3dlcmVkLUJ5":
+      - !binary |-
+        QVNQLk5FVA==
+      !binary "RGF0ZQ==":
+      - !binary |-
+        VGh1LCAzMSBKdWwgMjAxNCAxOTo1Nzo1NyBHTVQ=
     body:
       encoding: ASCII-8BIT
-      string: '{"GetZipCodesInRadiusOfLatLongResult":[{"City":"AUSTIN","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryCode":"US","County":"TRAVIS","DistanceAwayInKilometers":1.38724464264,"DistanceAwayInMiles":0.861996,"Latitude":30.267164,"Longitude":-97.742561,"PostalCode":"73301","State":"OK"},{"City":"AUSTIN","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryCode":"US","County":"TRAVIS","DistanceAwayInKilometers":1.38724464264,"DistanceAwayInMiles":0.861996,"Latitude":30.267164,"Longitude":-97.742561,"PostalCode":"73344","State":"OK"},{"City":"Austin","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryCode":"US","County":"Travis","DistanceAwayInKilometers":1.38724464264,"DistanceAwayInMiles":0.861996,"Latitude":30.267164,"Longitude":-97.742561,"PostalCode":"78710","State":"TX"},{"City":"Austin","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryCode":"US","County":"Travis","DistanceAwayInKilometers":1.38724464264,"DistanceAwayInMiles":0.861996,"Latitude":30.267164,"Longitude":-97.742561,"PostalCode":"78760","State":"TX"},{"City":"Austin","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryCode":"US","County":"Travis","DistanceAwayInKilometers":1.38724464264,"DistanceAwayInMiles":0.861996,"Latitude":30.267164,"Longitude":-97.742561,"PostalCode":"78761","State":"TX"},{"City":"Austin","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryCode":"US","County":"Travis","DistanceAwayInKilometers":1.38724464264,"DistanceAwayInMiles":0.861996,"Latitude":30.267164,"Longitude":-97.742561,"PostalCode":"78762","State":"TX"},{"City":"Austin","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryCode":"US","County":"Travis","DistanceAwayInKilometers":1.38724464264,"DistanceAwayInMiles":0.861996,"Latitude":30.267164,"Longitude":-97.742561,"PostalCode":"78765","State":"TX"},{"City":"Austin","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryCode":"US","County":"Travis","DistanceAwayInKilometers":1.38724464264,"DistanceAwayInMiles":0.861996,"Latitude":30.267164,"Longitude":-97.742561,"PostalCode":"78766","State":"TX"},{"City":"Austin","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryCode":"US","County":"Travis","DistanceAwayInKilometers":1.38724464264,"DistanceAwayInMiles":0.861996,"Latitude":30.267164,"Longitude":-97.742561,"PostalCode":"78768","State":"TX"},{"City":"Austin","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryCode":"US","County":"Travis","DistanceAwayInKilometers":1.38724464264,"DistanceAwayInMiles":0.861996,"Latitude":30.267164,"Longitude":-97.742561,"PostalCode":"78779","State":"TX"},{"City":"Austin","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryCode":"US","County":"Travis","DistanceAwayInKilometers":1.38724464264,"DistanceAwayInMiles":0.861996,"Latitude":30.267164,"Longitude":-97.742561,"PostalCode":"78780","State":"TX"},{"City":"Austin","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryCode":"US","County":"Travis","DistanceAwayInKilometers":1.38724464264,"DistanceAwayInMiles":0.861996,"Latitude":30.267164,"Longitude":-97.742561,"PostalCode":"78781","State":"TX"},{"City":"Austin","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryCode":"US","County":"Travis","DistanceAwayInKilometers":1.38724464264,"DistanceAwayInMiles":0.861996,"Latitude":30.267164,"Longitude":-97.742561,"PostalCode":"78783","State":"TX"},{"City":"Austin","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryCode":"US","County":"Travis","DistanceAwayInKilometers":1.38724464264,"DistanceAwayInMiles":0.861996,"Latitude":30.267164,"Longitude":-97.742561,"PostalCode":"78785","State":"TX"},{"City":"Austin","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryCode":"US","County":"Travis","DistanceAwayInKilometers":1.38724464264,"DistanceAwayInMiles":0.861996,"Latitude":30.267164,"Longitude":-97.742561,"PostalCode":"78786","State":"TX"},{"City":"Austin","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryCode":"US","County":"Travis","DistanceAwayInKilometers":1.38724464264,"DistanceAwayInMiles":0.861996,"Latitude":30.267164,"Longitude":-97.742561,"PostalCode":"78788","State":"TX"},{"City":"Austin","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryCode":"US","County":"Travis","DistanceAwayInKilometers":1.38724464264,"DistanceAwayInMiles":0.861996,"Latitude":30.267164,"Longitude":-97.742561,"PostalCode":"78789","State":"TX"}]}'
-    http_version: '1.1'
-  recorded_at: Thu, 31 Jul 2014 15:39:23 GMT
-recorded_with: VCR 2.9.2
+      string: !binary |-
+        eyJHZXRaaXBDb2Rlc0luUmFkaXVzT2ZMYXRMb25nUmVzdWx0IjpbeyJDaXR5
+        IjoiQVVTVElOIiwiQ29udGluZW50IjoiTm9ydGggQW1lcmljYSIsIkNvbnRp
+        bmVudENvZGUiOiJOQSIsIkNvdW50cnkiOiJVbml0ZWQgU3RhdGVzIiwiQ291
+        bnRyeUNvZGUiOiJVUyIsIkNvdW50eSI6IlRSQVZJUyIsIkRpc3RhbmNlQXdh
+        eUluS2lsb21ldGVycyI6MS4zODcyNDQ2NDI2NCwiRGlzdGFuY2VBd2F5SW5N
+        aWxlcyI6MC44NjE5OTYsIkxhdGl0dWRlIjozMC4yNjcxNjQsIkxvbmdpdHVk
+        ZSI6LTk3Ljc0MjU2MSwiUG9zdGFsQ29kZSI6IjczMzAxIiwiU3RhdGUiOiJP
+        SyJ9LHsiQ2l0eSI6IkFVU1RJTiIsIkNvbnRpbmVudCI6Ik5vcnRoIEFtZXJp
+        Y2EiLCJDb250aW5lbnRDb2RlIjoiTkEiLCJDb3VudHJ5IjoiVW5pdGVkIFN0
+        YXRlcyIsIkNvdW50cnlDb2RlIjoiVVMiLCJDb3VudHkiOiJUUkFWSVMiLCJE
+        aXN0YW5jZUF3YXlJbktpbG9tZXRlcnMiOjEuMzg3MjQ0NjQyNjQsIkRpc3Rh
+        bmNlQXdheUluTWlsZXMiOjAuODYxOTk2LCJMYXRpdHVkZSI6MzAuMjY3MTY0
+        LCJMb25naXR1ZGUiOi05Ny43NDI1NjEsIlBvc3RhbENvZGUiOiI3MzM0NCIs
+        IlN0YXRlIjoiT0sifSx7IkNpdHkiOiJBdXN0aW4iLCJDb250aW5lbnQiOiJO
+        b3J0aCBBbWVyaWNhIiwiQ29udGluZW50Q29kZSI6Ik5BIiwiQ291bnRyeSI6
+        IlVuaXRlZCBTdGF0ZXMiLCJDb3VudHJ5Q29kZSI6IlVTIiwiQ291bnR5Ijoi
+        VHJhdmlzIiwiRGlzdGFuY2VBd2F5SW5LaWxvbWV0ZXJzIjoxLjM4NzI0NDY0
+        MjY0LCJEaXN0YW5jZUF3YXlJbk1pbGVzIjowLjg2MTk5NiwiTGF0aXR1ZGUi
+        OjMwLjI2NzE2NCwiTG9uZ2l0dWRlIjotOTcuNzQyNTYxLCJQb3N0YWxDb2Rl
+        IjoiNzg3MTAiLCJTdGF0ZSI6IlRYIn0seyJDaXR5IjoiQXVzdGluIiwiQ29u
+        dGluZW50IjoiTm9ydGggQW1lcmljYSIsIkNvbnRpbmVudENvZGUiOiJOQSIs
+        IkNvdW50cnkiOiJVbml0ZWQgU3RhdGVzIiwiQ291bnRyeUNvZGUiOiJVUyIs
+        IkNvdW50eSI6IlRyYXZpcyIsIkRpc3RhbmNlQXdheUluS2lsb21ldGVycyI6
+        MS4zODcyNDQ2NDI2NCwiRGlzdGFuY2VBd2F5SW5NaWxlcyI6MC44NjE5OTYs
+        IkxhdGl0dWRlIjozMC4yNjcxNjQsIkxvbmdpdHVkZSI6LTk3Ljc0MjU2MSwi
+        UG9zdGFsQ29kZSI6Ijc4NzYwIiwiU3RhdGUiOiJUWCJ9LHsiQ2l0eSI6IkF1
+        c3RpbiIsIkNvbnRpbmVudCI6Ik5vcnRoIEFtZXJpY2EiLCJDb250aW5lbnRD
+        b2RlIjoiTkEiLCJDb3VudHJ5IjoiVW5pdGVkIFN0YXRlcyIsIkNvdW50cnlD
+        b2RlIjoiVVMiLCJDb3VudHkiOiJUcmF2aXMiLCJEaXN0YW5jZUF3YXlJbktp
+        bG9tZXRlcnMiOjEuMzg3MjQ0NjQyNjQsIkRpc3RhbmNlQXdheUluTWlsZXMi
+        OjAuODYxOTk2LCJMYXRpdHVkZSI6MzAuMjY3MTY0LCJMb25naXR1ZGUiOi05
+        Ny43NDI1NjEsIlBvc3RhbENvZGUiOiI3ODc2MSIsIlN0YXRlIjoiVFgifSx7
+        IkNpdHkiOiJBdXN0aW4iLCJDb250aW5lbnQiOiJOb3J0aCBBbWVyaWNhIiwi
+        Q29udGluZW50Q29kZSI6Ik5BIiwiQ291bnRyeSI6IlVuaXRlZCBTdGF0ZXMi
+        LCJDb3VudHJ5Q29kZSI6IlVTIiwiQ291bnR5IjoiVHJhdmlzIiwiRGlzdGFu
+        Y2VBd2F5SW5LaWxvbWV0ZXJzIjoxLjM4NzI0NDY0MjY0LCJEaXN0YW5jZUF3
+        YXlJbk1pbGVzIjowLjg2MTk5NiwiTGF0aXR1ZGUiOjMwLjI2NzE2NCwiTG9u
+        Z2l0dWRlIjotOTcuNzQyNTYxLCJQb3N0YWxDb2RlIjoiNzg3NjIiLCJTdGF0
+        ZSI6IlRYIn0seyJDaXR5IjoiQXVzdGluIiwiQ29udGluZW50IjoiTm9ydGgg
+        QW1lcmljYSIsIkNvbnRpbmVudENvZGUiOiJOQSIsIkNvdW50cnkiOiJVbml0
+        ZWQgU3RhdGVzIiwiQ291bnRyeUNvZGUiOiJVUyIsIkNvdW50eSI6IlRyYXZp
+        cyIsIkRpc3RhbmNlQXdheUluS2lsb21ldGVycyI6MS4zODcyNDQ2NDI2NCwi
+        RGlzdGFuY2VBd2F5SW5NaWxlcyI6MC44NjE5OTYsIkxhdGl0dWRlIjozMC4y
+        NjcxNjQsIkxvbmdpdHVkZSI6LTk3Ljc0MjU2MSwiUG9zdGFsQ29kZSI6Ijc4
+        NzY1IiwiU3RhdGUiOiJUWCJ9LHsiQ2l0eSI6IkF1c3RpbiIsIkNvbnRpbmVu
+        dCI6Ik5vcnRoIEFtZXJpY2EiLCJDb250aW5lbnRDb2RlIjoiTkEiLCJDb3Vu
+        dHJ5IjoiVW5pdGVkIFN0YXRlcyIsIkNvdW50cnlDb2RlIjoiVVMiLCJDb3Vu
+        dHkiOiJUcmF2aXMiLCJEaXN0YW5jZUF3YXlJbktpbG9tZXRlcnMiOjEuMzg3
+        MjQ0NjQyNjQsIkRpc3RhbmNlQXdheUluTWlsZXMiOjAuODYxOTk2LCJMYXRp
+        dHVkZSI6MzAuMjY3MTY0LCJMb25naXR1ZGUiOi05Ny43NDI1NjEsIlBvc3Rh
+        bENvZGUiOiI3ODc2NiIsIlN0YXRlIjoiVFgifSx7IkNpdHkiOiJBdXN0aW4i
+        LCJDb250aW5lbnQiOiJOb3J0aCBBbWVyaWNhIiwiQ29udGluZW50Q29kZSI6
+        Ik5BIiwiQ291bnRyeSI6IlVuaXRlZCBTdGF0ZXMiLCJDb3VudHJ5Q29kZSI6
+        IlVTIiwiQ291bnR5IjoiVHJhdmlzIiwiRGlzdGFuY2VBd2F5SW5LaWxvbWV0
+        ZXJzIjoxLjM4NzI0NDY0MjY0LCJEaXN0YW5jZUF3YXlJbk1pbGVzIjowLjg2
+        MTk5NiwiTGF0aXR1ZGUiOjMwLjI2NzE2NCwiTG9uZ2l0dWRlIjotOTcuNzQy
+        NTYxLCJQb3N0YWxDb2RlIjoiNzg3NjgiLCJTdGF0ZSI6IlRYIn0seyJDaXR5
+        IjoiQXVzdGluIiwiQ29udGluZW50IjoiTm9ydGggQW1lcmljYSIsIkNvbnRp
+        bmVudENvZGUiOiJOQSIsIkNvdW50cnkiOiJVbml0ZWQgU3RhdGVzIiwiQ291
+        bnRyeUNvZGUiOiJVUyIsIkNvdW50eSI6IlRyYXZpcyIsIkRpc3RhbmNlQXdh
+        eUluS2lsb21ldGVycyI6MS4zODcyNDQ2NDI2NCwiRGlzdGFuY2VBd2F5SW5N
+        aWxlcyI6MC44NjE5OTYsIkxhdGl0dWRlIjozMC4yNjcxNjQsIkxvbmdpdHVk
+        ZSI6LTk3Ljc0MjU2MSwiUG9zdGFsQ29kZSI6Ijc4Nzc5IiwiU3RhdGUiOiJU
+        WCJ9LHsiQ2l0eSI6IkF1c3RpbiIsIkNvbnRpbmVudCI6Ik5vcnRoIEFtZXJp
+        Y2EiLCJDb250aW5lbnRDb2RlIjoiTkEiLCJDb3VudHJ5IjoiVW5pdGVkIFN0
+        YXRlcyIsIkNvdW50cnlDb2RlIjoiVVMiLCJDb3VudHkiOiJUcmF2aXMiLCJE
+        aXN0YW5jZUF3YXlJbktpbG9tZXRlcnMiOjEuMzg3MjQ0NjQyNjQsIkRpc3Rh
+        bmNlQXdheUluTWlsZXMiOjAuODYxOTk2LCJMYXRpdHVkZSI6MzAuMjY3MTY0
+        LCJMb25naXR1ZGUiOi05Ny43NDI1NjEsIlBvc3RhbENvZGUiOiI3ODc4MCIs
+        IlN0YXRlIjoiVFgifSx7IkNpdHkiOiJBdXN0aW4iLCJDb250aW5lbnQiOiJO
+        b3J0aCBBbWVyaWNhIiwiQ29udGluZW50Q29kZSI6Ik5BIiwiQ291bnRyeSI6
+        IlVuaXRlZCBTdGF0ZXMiLCJDb3VudHJ5Q29kZSI6IlVTIiwiQ291bnR5Ijoi
+        VHJhdmlzIiwiRGlzdGFuY2VBd2F5SW5LaWxvbWV0ZXJzIjoxLjM4NzI0NDY0
+        MjY0LCJEaXN0YW5jZUF3YXlJbk1pbGVzIjowLjg2MTk5NiwiTGF0aXR1ZGUi
+        OjMwLjI2NzE2NCwiTG9uZ2l0dWRlIjotOTcuNzQyNTYxLCJQb3N0YWxDb2Rl
+        IjoiNzg3ODEiLCJTdGF0ZSI6IlRYIn0seyJDaXR5IjoiQXVzdGluIiwiQ29u
+        dGluZW50IjoiTm9ydGggQW1lcmljYSIsIkNvbnRpbmVudENvZGUiOiJOQSIs
+        IkNvdW50cnkiOiJVbml0ZWQgU3RhdGVzIiwiQ291bnRyeUNvZGUiOiJVUyIs
+        IkNvdW50eSI6IlRyYXZpcyIsIkRpc3RhbmNlQXdheUluS2lsb21ldGVycyI6
+        MS4zODcyNDQ2NDI2NCwiRGlzdGFuY2VBd2F5SW5NaWxlcyI6MC44NjE5OTYs
+        IkxhdGl0dWRlIjozMC4yNjcxNjQsIkxvbmdpdHVkZSI6LTk3Ljc0MjU2MSwi
+        UG9zdGFsQ29kZSI6Ijc4NzgzIiwiU3RhdGUiOiJUWCJ9LHsiQ2l0eSI6IkF1
+        c3RpbiIsIkNvbnRpbmVudCI6Ik5vcnRoIEFtZXJpY2EiLCJDb250aW5lbnRD
+        b2RlIjoiTkEiLCJDb3VudHJ5IjoiVW5pdGVkIFN0YXRlcyIsIkNvdW50cnlD
+        b2RlIjoiVVMiLCJDb3VudHkiOiJUcmF2aXMiLCJEaXN0YW5jZUF3YXlJbktp
+        bG9tZXRlcnMiOjEuMzg3MjQ0NjQyNjQsIkRpc3RhbmNlQXdheUluTWlsZXMi
+        OjAuODYxOTk2LCJMYXRpdHVkZSI6MzAuMjY3MTY0LCJMb25naXR1ZGUiOi05
+        Ny43NDI1NjEsIlBvc3RhbENvZGUiOiI3ODc4NSIsIlN0YXRlIjoiVFgifSx7
+        IkNpdHkiOiJBdXN0aW4iLCJDb250aW5lbnQiOiJOb3J0aCBBbWVyaWNhIiwi
+        Q29udGluZW50Q29kZSI6Ik5BIiwiQ291bnRyeSI6IlVuaXRlZCBTdGF0ZXMi
+        LCJDb3VudHJ5Q29kZSI6IlVTIiwiQ291bnR5IjoiVHJhdmlzIiwiRGlzdGFu
+        Y2VBd2F5SW5LaWxvbWV0ZXJzIjoxLjM4NzI0NDY0MjY0LCJEaXN0YW5jZUF3
+        YXlJbk1pbGVzIjowLjg2MTk5NiwiTGF0aXR1ZGUiOjMwLjI2NzE2NCwiTG9u
+        Z2l0dWRlIjotOTcuNzQyNTYxLCJQb3N0YWxDb2RlIjoiNzg3ODYiLCJTdGF0
+        ZSI6IlRYIn0seyJDaXR5IjoiQXVzdGluIiwiQ29udGluZW50IjoiTm9ydGgg
+        QW1lcmljYSIsIkNvbnRpbmVudENvZGUiOiJOQSIsIkNvdW50cnkiOiJVbml0
+        ZWQgU3RhdGVzIiwiQ291bnRyeUNvZGUiOiJVUyIsIkNvdW50eSI6IlRyYXZp
+        cyIsIkRpc3RhbmNlQXdheUluS2lsb21ldGVycyI6MS4zODcyNDQ2NDI2NCwi
+        RGlzdGFuY2VBd2F5SW5NaWxlcyI6MC44NjE5OTYsIkxhdGl0dWRlIjozMC4y
+        NjcxNjQsIkxvbmdpdHVkZSI6LTk3Ljc0MjU2MSwiUG9zdGFsQ29kZSI6Ijc4
+        Nzg4IiwiU3RhdGUiOiJUWCJ9LHsiQ2l0eSI6IkF1c3RpbiIsIkNvbnRpbmVu
+        dCI6Ik5vcnRoIEFtZXJpY2EiLCJDb250aW5lbnRDb2RlIjoiTkEiLCJDb3Vu
+        dHJ5IjoiVW5pdGVkIFN0YXRlcyIsIkNvdW50cnlDb2RlIjoiVVMiLCJDb3Vu
+        dHkiOiJUcmF2aXMiLCJEaXN0YW5jZUF3YXlJbktpbG9tZXRlcnMiOjEuMzg3
+        MjQ0NjQyNjQsIkRpc3RhbmNlQXdheUluTWlsZXMiOjAuODYxOTk2LCJMYXRp
+        dHVkZSI6MzAuMjY3MTY0LCJMb25naXR1ZGUiOi05Ny43NDI1NjEsIlBvc3Rh
+        bENvZGUiOiI3ODc4OSIsIlN0YXRlIjoiVFgifV19
+    http_version: !binary |-
+      MS4x
+  recorded_at: Thu, 31 Jul 2014 19:57:58 GMT
+recorded_with: VCR 2.2.4

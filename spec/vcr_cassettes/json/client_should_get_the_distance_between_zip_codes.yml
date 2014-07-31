@@ -24,7 +24,10 @@ http_interactions:
       - Thu, 31 Jul 2014 05:46:09 GMT
     body:
       encoding: ASCII-8BIT
-      string: '{"RetrieveDistanceBetweenZipCodesResult":{"DistanceAwayInKilometers":0,"DistanceAwayInMiles":0,"ZipCode1":null,"ZipCode2":null}}'
+      string: !binary |-
+        eyJSZXRyaWV2ZURpc3RhbmNlQmV0d2VlblppcENvZGVzUmVzdWx0Ijp7IkRp
+        c3RhbmNlQXdheUluS2lsb21ldGVycyI6MCwiRGlzdGFuY2VBd2F5SW5NaWxl
+        cyI6MCwiWmlwQ29kZTEiOm51bGwsIlppcENvZGUyIjpudWxsfX0=
     http_version: '1.1'
   recorded_at: Thu, 31 Jul 2014 05:46:36 GMT
 - request:
@@ -37,21 +40,32 @@ http_interactions:
   response:
     status:
       code: 200
-      message: OK
+      message: !binary |-
+        T0s=
     headers:
-      Content-Length:
-      - '159'
-      Content-Type:
-      - application/json; charset=utf-8
-      Server:
-      - Microsoft-IIS/7.5
-      X-Powered-By:
-      - ASP.NET
-      Date:
-      - Thu, 31 Jul 2014 15:39:19 GMT
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        MTU5
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbjsgY2hhcnNldD11dGYtOA==
+      !binary "U2VydmVy":
+      - !binary |-
+        TWljcm9zb2Z0LUlJUy83LjU=
+      !binary "WC1Qb3dlcmVkLUJ5":
+      - !binary |-
+        QVNQLk5FVA==
+      !binary "RGF0ZQ==":
+      - !binary |-
+        VGh1LCAzMSBKdWwgMjAxNCAxOTo1Nzo1NyBHTVQ=
     body:
       encoding: ASCII-8BIT
-      string: '{"RetrieveDistanceBetweenZipCodesResult":{"DistanceAwayInKilometers":2601.50019409530,"DistanceAwayInMiles":1616.501295,"ZipCode1":"78702","ZipCode2":"01109"}}'
-    http_version: '1.1'
-  recorded_at: Thu, 31 Jul 2014 15:39:23 GMT
-recorded_with: VCR 2.9.2
+      string: !binary |-
+        eyJSZXRyaWV2ZURpc3RhbmNlQmV0d2VlblppcENvZGVzUmVzdWx0Ijp7IkRp
+        c3RhbmNlQXdheUluS2lsb21ldGVycyI6MjYwMS41MDAxOTQwOTUzMCwiRGlz
+        dGFuY2VBd2F5SW5NaWxlcyI6MTYxNi41MDEyOTUsIlppcENvZGUxIjoiNzg3
+        MDIiLCJaaXBDb2RlMiI6IjAxMTA5In19
+    http_version: !binary |-
+      MS4x
+  recorded_at: Thu, 31 Jul 2014 19:57:59 GMT
+recorded_with: VCR 2.2.4

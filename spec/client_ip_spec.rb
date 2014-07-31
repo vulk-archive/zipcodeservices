@@ -1,7 +1,7 @@
 require 'ipaddressservices'
 require 'spec_helper'
 
-IpAddressServices.apikey = ENV['IP_ADDRESS_SERVICES_API_KEY']
+IpAddressServices.apikey = 	ENV['ZIP_CODE_SERVICES_API_KEY'] 
 
 
 describe "json client" do 

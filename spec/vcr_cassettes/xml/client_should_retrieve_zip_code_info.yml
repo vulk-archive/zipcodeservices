@@ -72,24 +72,42 @@ http_interactions:
   response:
     status:
       code: 200
-      message: OK
+      message: !binary |-
+        T0s=
     headers:
-      Content-Length:
-      - '621'
-      Content-Type:
-      - application/xml; charset=utf-8
-      Server:
-      - Microsoft-IIS/7.5
-      X-Powered-By:
-      - ASP.NET
-      Date:
-      - Thu, 31 Jul 2014 15:39:19 GMT
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        NjIx
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24veG1sOyBjaGFyc2V0PXV0Zi04
+      !binary "U2VydmVy":
+      - !binary |-
+        TWljcm9zb2Z0LUlJUy83LjU=
+      !binary "WC1Qb3dlcmVkLUJ5":
+      - !binary |-
+        QVNQLk5FVA==
+      !binary "RGF0ZQ==":
+      - !binary |-
+        VGh1LCAzMSBKdWwgMjAxNCAxOTo1Nzo1OSBHTVQ=
     body:
       encoding: ASCII-8BIT
-      string: <RetrieveZipCodeInfoResponse xmlns="http://tempuri.org/"><RetrieveZipCodeInfoResult
-        xmlns:a="http://schemas.datacontract.org/2004/07/Zips.DTO" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><a:City>Austin</a:City><a:Continent>North
-        America</a:Continent><a:ContinentCode>NA</a:ContinentCode><a:Country>United
-        States</a:Country><a:CountryCode>US</a:CountryCode><a:County>Travis Williamson</a:County><a:Latitude>30.295800</a:Latitude><a:Longitude>-97.810100</a:Longitude><a:PostalCode>78702</a:PostalCode><a:State>Texas</a:State><a:StateCode>Texas</a:StateCode></RetrieveZipCodeInfoResult></RetrieveZipCodeInfoResponse>
-    http_version: '1.1'
-  recorded_at: Thu, 31 Jul 2014 15:39:23 GMT
-recorded_with: VCR 2.9.2
+      string: !binary |-
+        PFJldHJpZXZlWmlwQ29kZUluZm9SZXNwb25zZSB4bWxucz0iaHR0cDovL3Rl
+        bXB1cmkub3JnLyI+PFJldHJpZXZlWmlwQ29kZUluZm9SZXN1bHQgeG1sbnM6
+        YT0iaHR0cDovL3NjaGVtYXMuZGF0YWNvbnRyYWN0Lm9yZy8yMDA0LzA3L1pp
+        cHMuRFRPIiB4bWxuczppPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNj
+        aGVtYS1pbnN0YW5jZSI+PGE6Q2l0eT5BdXN0aW48L2E6Q2l0eT48YTpDb250
+        aW5lbnQ+Tm9ydGggQW1lcmljYTwvYTpDb250aW5lbnQ+PGE6Q29udGluZW50
+        Q29kZT5OQTwvYTpDb250aW5lbnRDb2RlPjxhOkNvdW50cnk+VW5pdGVkIFN0
+        YXRlczwvYTpDb3VudHJ5PjxhOkNvdW50cnlDb2RlPlVTPC9hOkNvdW50cnlD
+        b2RlPjxhOkNvdW50eT5UcmF2aXMgV2lsbGlhbXNvbjwvYTpDb3VudHk+PGE6
+        TGF0aXR1ZGU+MzAuMjk1ODAwPC9hOkxhdGl0dWRlPjxhOkxvbmdpdHVkZT4t
+        OTcuODEwMTAwPC9hOkxvbmdpdHVkZT48YTpQb3N0YWxDb2RlPjc4NzAyPC9h
+        OlBvc3RhbENvZGU+PGE6U3RhdGU+VGV4YXM8L2E6U3RhdGU+PGE6U3RhdGVD
+        b2RlPlRleGFzPC9hOlN0YXRlQ29kZT48L1JldHJpZXZlWmlwQ29kZUluZm9S
+        ZXN1bHQ+PC9SZXRyaWV2ZVppcENvZGVJbmZvUmVzcG9uc2U+
+    http_version: !binary |-
+      MS4x
+  recorded_at: Thu, 31 Jul 2014 19:58:01 GMT
+recorded_with: VCR 2.2.4

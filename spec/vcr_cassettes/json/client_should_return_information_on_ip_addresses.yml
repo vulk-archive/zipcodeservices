@@ -24,7 +24,13 @@ http_interactions:
       - Thu, 31 Jul 2014 05:46:09 GMT
     body:
       encoding: ASCII-8BIT
-      string: '{"RetrieveIPAddressDataResult":{"AreaCode":null,"City":null,"Continent":null,"ContinentCode":null,"Country":null,"CountryCode":null,"County":null,"IPAddress":null,"ISP":null,"Latitude":null,"Longitude":null,"State":null,"StateCode":null,"ZipCode":null}}'
+      string: !binary |-
+        eyJSZXRyaWV2ZUlQQWRkcmVzc0RhdGFSZXN1bHQiOnsiQXJlYUNvZGUiOm51
+        bGwsIkNpdHkiOm51bGwsIkNvbnRpbmVudCI6bnVsbCwiQ29udGluZW50Q29k
+        ZSI6bnVsbCwiQ291bnRyeSI6bnVsbCwiQ291bnRyeUNvZGUiOm51bGwsIkNv
+        dW50eSI6bnVsbCwiSVBBZGRyZXNzIjpudWxsLCJJU1AiOm51bGwsIkxhdGl0
+        dWRlIjpudWxsLCJMb25naXR1ZGUiOm51bGwsIlN0YXRlIjpudWxsLCJTdGF0
+        ZUNvZGUiOm51bGwsIlppcENvZGUiOm51bGx9fQ==
     http_version: '1.1'
   recorded_at: Thu, 31 Jul 2014 05:46:36 GMT
 - request:
@@ -37,23 +43,36 @@ http_interactions:
   response:
     status:
       code: 200
-      message: OK
+      message: !binary |-
+        T0s=
     headers:
-      Content-Length:
-      - '332'
-      Content-Type:
-      - application/json; charset=utf-8
-      Server:
-      - Microsoft-IIS/7.5
-      X-Powered-By:
-      - ASP.NET
-      Date:
-      - Thu, 31 Jul 2014 15:39:19 GMT
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        MzMy
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbjsgY2hhcnNldD11dGYtOA==
+      !binary "U2VydmVy":
+      - !binary |-
+        TWljcm9zb2Z0LUlJUy83LjU=
+      !binary "WC1Qb3dlcmVkLUJ5":
+      - !binary |-
+        QVNQLk5FVA==
+      !binary "RGF0ZQ==":
+      - !binary |-
+        VGh1LCAzMSBKdWwgMjAxNCAxOTo1Nzo1OSBHTVQ=
     body:
       encoding: ASCII-8BIT
-      string: '{"RetrieveIPAddressDataResult":{"AreaCode":"602","City":"Phoenix","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryCode":"US","County":"Maricopa","IPAddress":"184.98.179.3","ISP":"Eonix
-        Corporation","Latitude":33.448100,"Longitude":-112.073200,"State":"Arizona","StateCode":"AZ","ZipCode":"85001"}}'
-    http_version: '1.1'
-  recorded_at: Thu, 31 Jul 2014 15:39:23 GMT
-recorded_with: VCR 2.9.2
+      string: !binary |-
+        eyJSZXRyaWV2ZUlQQWRkcmVzc0RhdGFSZXN1bHQiOnsiQXJlYUNvZGUiOiI2
+        MDIiLCJDaXR5IjoiUGhvZW5peCIsIkNvbnRpbmVudCI6Ik5vcnRoIEFtZXJp
+        Y2EiLCJDb250aW5lbnRDb2RlIjoiTkEiLCJDb3VudHJ5IjoiVW5pdGVkIFN0
+        YXRlcyIsIkNvdW50cnlDb2RlIjoiVVMiLCJDb3VudHkiOiJNYXJpY29wYSIs
+        IklQQWRkcmVzcyI6IjE4NC45OC4xNzkuMyIsIklTUCI6IkVvbml4IENvcnBv
+        cmF0aW9uIiwiTGF0aXR1ZGUiOjMzLjQ0ODEwMCwiTG9uZ2l0dWRlIjotMTEy
+        LjA3MzIwMCwiU3RhdGUiOiJBcml6b25hIiwiU3RhdGVDb2RlIjoiQVoiLCJa
+        aXBDb2RlIjoiODUwMDEifX0=
+    http_version: !binary |-
+      MS4x
+  recorded_at: Thu, 31 Jul 2014 19:58:00 GMT
+recorded_with: VCR 2.2.4
