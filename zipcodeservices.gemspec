@@ -23,7 +23,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'rspec', ["~> 2.13"]
   s.add_development_dependency 'vcr',["~> 2.4"]
   s.add_development_dependency 'guard-rspec', ["~> 4.2"]
-  s.add_development_dependency 'debugger'
+#  s.add_development_dependency 'debugger'
 
   s.add_runtime_dependency "typhoeus", "0.3.3"
   s.add_runtime_dependency "multi_xml", ["~> 0.5"]
