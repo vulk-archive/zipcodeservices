@@ -19,7 +19,7 @@ module IpAddressServices
       "#{@base_uri}/#{fmt}"
     end
 	
-    def zip_by_ip(ipaddress) 
+    def get_ip_address(ipaddress) 
       #/{apikey}/{ipadderss}
       response = Typhoeus::Request.get( "#{base_uri}/ipaddress.svc/GetIP?apikey=#{apikey}&ip=#{ipaddress}") 
 			if response.code == 200 
@@ -38,7 +38,7 @@ module IpAddressServices
       end 
     end
 
-    def radius_by_ip(ipaddress, rad)
+    def zip_codes_in_radius_of_ip(ipaddress, rad)
       response = Typhoeus::Request.get( "#{base_uri}/ipaddress.svc/GetZipsInRadiusOfIP?apikey=#{apikey}&ip=#{ipaddress}&radius=#{rad}") 
 			if response.code == 200 
         if data_format == :xml

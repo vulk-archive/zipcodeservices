@@ -322,417 +322,6 @@ http_interactions:
   recorded_at: Tue, 29 Jul 2014 00:37:52 GMT
 - request:
     method: get
-    uri: https://www.zipcodeservices.com/services/rest/json/provinces.svc/<API_KEY>/1
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers: {}
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Length:
-      - '41'
-      Content-Type:
-      - application/json; charset=utf-8
-      Server:
-      - Microsoft-IIS/7.5
-      X-Powered-By:
-      - ASP.NET
-      Date:
-      - Wed, 30 Jul 2014 01:37:25 GMT
-    body:
-      encoding: ASCII-8BIT
-      string: '{"GetAllProvincesByCountryIdResult":null}'
-    http_version: '1.1'
-  recorded_at: Wed, 30 Jul 2014 01:37:48 GMT
-- request:
-    method: get
-    uri: https://www.zipcodeservices.com/services/rest/json/provinces.svc/<API_KEY>/1
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers: {}
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Length:
-      - '9671'
-      Content-Type:
-      - application/json; charset=utf-8
-      Server:
-      - Microsoft-IIS/7.5
-      X-Powered-By:
-      - ASP.NET
-      Date:
-      - Wed, 30 Jul 2014 01:39:03 GMT
-    body:
-      encoding: ASCII-8BIT
-      string: '{"GetAllProvincesByCountryIdResult":[{"Abbreviation":"AL","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":1,"State":"Alabama"},{"Abbreviation":"AK","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":2,"State":"Alaska"},{"Abbreviation":"AS","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":3,"State":"American
-        Samoa"},{"Abbreviation":"AZ","Continent":"North America","ContinentCode":"NA","Country":"United
-        States","CountryAbbreviation":"US","CountryId":1,"Id":4,"State":"Arizona"},{"Abbreviation":"AR","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":5,"State":"Arkansas"},{"Abbreviation":"CA","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":6,"State":"California"},{"Abbreviation":"CO","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":7,"State":"Colorado"},{"Abbreviation":"CT","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":8,"State":"Connecticut"},{"Abbreviation":"DC","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":9,"State":"District
-        Of Columbia"},{"Abbreviation":"DE","Continent":"North America","ContinentCode":"NA","Country":"United
-        States","CountryAbbreviation":"US","CountryId":1,"Id":10,"State":"Delaware"},{"Abbreviation":"FM","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":11,"State":"Federated
-        States of Micronesia"},{"Abbreviation":"FL","Continent":"North America","ContinentCode":"NA","Country":"United
-        States","CountryAbbreviation":"US","CountryId":1,"Id":12,"State":"Florida"},{"Abbreviation":"GA","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":13,"State":"Georgia"},{"Abbreviation":"GU","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":14,"State":"Guam"},{"Abbreviation":"HI","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":15,"State":"Hawaii"},{"Abbreviation":"ID","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":16,"State":"Idaho"},{"Abbreviation":"IL","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":17,"State":"Illinois"},{"Abbreviation":"IN","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":18,"State":"Indiana"},{"Abbreviation":"IA","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":19,"State":"Iowa"},{"Abbreviation":"KS","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":20,"State":"Kansas"},{"Abbreviation":"KY","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":21,"State":"Kentucky"},{"Abbreviation":"LA","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":22,"State":"Louisiana"},{"Abbreviation":"ME","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":23,"State":"Maine"},{"Abbreviation":"MH","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":24,"State":"Marshall
-        Islands"},{"Abbreviation":"MD","Continent":"North America","ContinentCode":"NA","Country":"United
-        States","CountryAbbreviation":"US","CountryId":1,"Id":25,"State":"Maryland"},{"Abbreviation":"MA","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":26,"State":"Massachusetts"},{"Abbreviation":"MI","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":27,"State":"Michigan"},{"Abbreviation":"MN","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":28,"State":"Minnesota"},{"Abbreviation":"MS","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":29,"State":"Mississippi"},{"Abbreviation":"MO","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":30,"State":"Missouri"},{"Abbreviation":"MT","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":31,"State":"Montana"},{"Abbreviation":"NE","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":32,"State":"Nebraska"},{"Abbreviation":"NV","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":33,"State":"Nevada"},{"Abbreviation":"NH","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":34,"State":"New
-        Hampshire"},{"Abbreviation":"NJ","Continent":"North America","ContinentCode":"NA","Country":"United
-        States","CountryAbbreviation":"US","CountryId":1,"Id":35,"State":"New Jersey"},{"Abbreviation":"NM","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":36,"State":"New
-        Mexico"},{"Abbreviation":"NY","Continent":"North America","ContinentCode":"NA","Country":"United
-        States","CountryAbbreviation":"US","CountryId":1,"Id":37,"State":"New York"},{"Abbreviation":"NC","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":38,"State":"North
-        Carolina"},{"Abbreviation":"ND","Continent":"North America","ContinentCode":"NA","Country":"United
-        States","CountryAbbreviation":"US","CountryId":1,"Id":39,"State":"North Dakota"},{"Abbreviation":"OH","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":40,"State":"Ohio"},{"Abbreviation":"OK","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":41,"State":"Oklahoma"},{"Abbreviation":"OR","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":42,"State":"Oregon"},{"Abbreviation":"PW","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":43,"State":"Palau"},{"Abbreviation":"PA","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":44,"State":"Pennsylvania"},{"Abbreviation":"PR","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":45,"State":"Puerto
-        Rico"},{"Abbreviation":"RI","Continent":"North America","ContinentCode":"NA","Country":"United
-        States","CountryAbbreviation":"US","CountryId":1,"Id":46,"State":"Rhode Island"},{"Abbreviation":"SC","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":47,"State":"South
-        Carolina"},{"Abbreviation":"SD","Continent":"North America","ContinentCode":"NA","Country":"United
-        States","CountryAbbreviation":"US","CountryId":1,"Id":48,"State":"South Dakota"},{"Abbreviation":"TN","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":49,"State":"Tennessee"},{"Abbreviation":"TX","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":50,"State":"Texas"},{"Abbreviation":"UT","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":51,"State":"Utah"},{"Abbreviation":"VT","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":52,"State":"Vermont"},{"Abbreviation":"VI","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":53,"State":"Virgin
-        Islands"},{"Abbreviation":"VA","Continent":"North America","ContinentCode":"NA","Country":"United
-        States","CountryAbbreviation":"US","CountryId":1,"Id":54,"State":"Virginia"},{"Abbreviation":"WA","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":55,"State":"Washington"},{"Abbreviation":"WV","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":56,"State":"West
-        Virginia"},{"Abbreviation":"WI","Continent":"North America","ContinentCode":"NA","Country":"United
-        States","CountryAbbreviation":"US","CountryId":1,"Id":57,"State":"Wisconsin"},{"Abbreviation":"WY","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":58,"State":"Wyoming"}]}'
-    http_version: '1.1'
-  recorded_at: Wed, 30 Jul 2014 01:39:27 GMT
-- request:
-    method: get
-    uri: https://www.zipcodeservices.com/services/rest/json/provinces.svc/<API_KEY>/1
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers: {}
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Length:
-      - '9671'
-      Content-Type:
-      - application/json; charset=utf-8
-      Server:
-      - Microsoft-IIS/7.5
-      X-Powered-By:
-      - ASP.NET
-      Date:
-      - Wed, 30 Jul 2014 01:39:52 GMT
-    body:
-      encoding: ASCII-8BIT
-      string: '{"GetAllProvincesByCountryIdResult":[{"Abbreviation":"AL","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":1,"State":"Alabama"},{"Abbreviation":"AK","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":2,"State":"Alaska"},{"Abbreviation":"AS","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":3,"State":"American
-        Samoa"},{"Abbreviation":"AZ","Continent":"North America","ContinentCode":"NA","Country":"United
-        States","CountryAbbreviation":"US","CountryId":1,"Id":4,"State":"Arizona"},{"Abbreviation":"AR","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":5,"State":"Arkansas"},{"Abbreviation":"CA","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":6,"State":"California"},{"Abbreviation":"CO","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":7,"State":"Colorado"},{"Abbreviation":"CT","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":8,"State":"Connecticut"},{"Abbreviation":"DC","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":9,"State":"District
-        Of Columbia"},{"Abbreviation":"DE","Continent":"North America","ContinentCode":"NA","Country":"United
-        States","CountryAbbreviation":"US","CountryId":1,"Id":10,"State":"Delaware"},{"Abbreviation":"FM","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":11,"State":"Federated
-        States of Micronesia"},{"Abbreviation":"FL","Continent":"North America","ContinentCode":"NA","Country":"United
-        States","CountryAbbreviation":"US","CountryId":1,"Id":12,"State":"Florida"},{"Abbreviation":"GA","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":13,"State":"Georgia"},{"Abbreviation":"GU","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":14,"State":"Guam"},{"Abbreviation":"HI","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":15,"State":"Hawaii"},{"Abbreviation":"ID","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":16,"State":"Idaho"},{"Abbreviation":"IL","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":17,"State":"Illinois"},{"Abbreviation":"IN","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":18,"State":"Indiana"},{"Abbreviation":"IA","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":19,"State":"Iowa"},{"Abbreviation":"KS","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":20,"State":"Kansas"},{"Abbreviation":"KY","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":21,"State":"Kentucky"},{"Abbreviation":"LA","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":22,"State":"Louisiana"},{"Abbreviation":"ME","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":23,"State":"Maine"},{"Abbreviation":"MH","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":24,"State":"Marshall
-        Islands"},{"Abbreviation":"MD","Continent":"North America","ContinentCode":"NA","Country":"United
-        States","CountryAbbreviation":"US","CountryId":1,"Id":25,"State":"Maryland"},{"Abbreviation":"MA","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":26,"State":"Massachusetts"},{"Abbreviation":"MI","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":27,"State":"Michigan"},{"Abbreviation":"MN","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":28,"State":"Minnesota"},{"Abbreviation":"MS","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":29,"State":"Mississippi"},{"Abbreviation":"MO","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":30,"State":"Missouri"},{"Abbreviation":"MT","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":31,"State":"Montana"},{"Abbreviation":"NE","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":32,"State":"Nebraska"},{"Abbreviation":"NV","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":33,"State":"Nevada"},{"Abbreviation":"NH","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":34,"State":"New
-        Hampshire"},{"Abbreviation":"NJ","Continent":"North America","ContinentCode":"NA","Country":"United
-        States","CountryAbbreviation":"US","CountryId":1,"Id":35,"State":"New Jersey"},{"Abbreviation":"NM","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":36,"State":"New
-        Mexico"},{"Abbreviation":"NY","Continent":"North America","ContinentCode":"NA","Country":"United
-        States","CountryAbbreviation":"US","CountryId":1,"Id":37,"State":"New York"},{"Abbreviation":"NC","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":38,"State":"North
-        Carolina"},{"Abbreviation":"ND","Continent":"North America","ContinentCode":"NA","Country":"United
-        States","CountryAbbreviation":"US","CountryId":1,"Id":39,"State":"North Dakota"},{"Abbreviation":"OH","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":40,"State":"Ohio"},{"Abbreviation":"OK","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":41,"State":"Oklahoma"},{"Abbreviation":"OR","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":42,"State":"Oregon"},{"Abbreviation":"PW","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":43,"State":"Palau"},{"Abbreviation":"PA","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":44,"State":"Pennsylvania"},{"Abbreviation":"PR","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":45,"State":"Puerto
-        Rico"},{"Abbreviation":"RI","Continent":"North America","ContinentCode":"NA","Country":"United
-        States","CountryAbbreviation":"US","CountryId":1,"Id":46,"State":"Rhode Island"},{"Abbreviation":"SC","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":47,"State":"South
-        Carolina"},{"Abbreviation":"SD","Continent":"North America","ContinentCode":"NA","Country":"United
-        States","CountryAbbreviation":"US","CountryId":1,"Id":48,"State":"South Dakota"},{"Abbreviation":"TN","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":49,"State":"Tennessee"},{"Abbreviation":"TX","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":50,"State":"Texas"},{"Abbreviation":"UT","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":51,"State":"Utah"},{"Abbreviation":"VT","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":52,"State":"Vermont"},{"Abbreviation":"VI","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":53,"State":"Virgin
-        Islands"},{"Abbreviation":"VA","Continent":"North America","ContinentCode":"NA","Country":"United
-        States","CountryAbbreviation":"US","CountryId":1,"Id":54,"State":"Virginia"},{"Abbreviation":"WA","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":55,"State":"Washington"},{"Abbreviation":"WV","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":56,"State":"West
-        Virginia"},{"Abbreviation":"WI","Continent":"North America","ContinentCode":"NA","Country":"United
-        States","CountryAbbreviation":"US","CountryId":1,"Id":57,"State":"Wisconsin"},{"Abbreviation":"WY","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":58,"State":"Wyoming"}]}'
-    http_version: '1.1'
-  recorded_at: Wed, 30 Jul 2014 01:40:15 GMT
-- request:
-    method: get
-    uri: https://www.zipcodeservices.com/services/rest/json/provinces.svc/<API_KEY>/1
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers: {}
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Length:
-      - '9671'
-      Content-Type:
-      - application/json; charset=utf-8
-      Server:
-      - Microsoft-IIS/7.5
-      X-Powered-By:
-      - ASP.NET
-      Date:
-      - Wed, 30 Jul 2014 02:27:26 GMT
-    body:
-      encoding: ASCII-8BIT
-      string: '{"GetAllProvincesByCountryIdResult":[{"Abbreviation":"AL","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":1,"State":"Alabama"},{"Abbreviation":"AK","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":2,"State":"Alaska"},{"Abbreviation":"AS","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":3,"State":"American
-        Samoa"},{"Abbreviation":"AZ","Continent":"North America","ContinentCode":"NA","Country":"United
-        States","CountryAbbreviation":"US","CountryId":1,"Id":4,"State":"Arizona"},{"Abbreviation":"AR","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":5,"State":"Arkansas"},{"Abbreviation":"CA","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":6,"State":"California"},{"Abbreviation":"CO","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":7,"State":"Colorado"},{"Abbreviation":"CT","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":8,"State":"Connecticut"},{"Abbreviation":"DC","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":9,"State":"District
-        Of Columbia"},{"Abbreviation":"DE","Continent":"North America","ContinentCode":"NA","Country":"United
-        States","CountryAbbreviation":"US","CountryId":1,"Id":10,"State":"Delaware"},{"Abbreviation":"FM","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":11,"State":"Federated
-        States of Micronesia"},{"Abbreviation":"FL","Continent":"North America","ContinentCode":"NA","Country":"United
-        States","CountryAbbreviation":"US","CountryId":1,"Id":12,"State":"Florida"},{"Abbreviation":"GA","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":13,"State":"Georgia"},{"Abbreviation":"GU","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":14,"State":"Guam"},{"Abbreviation":"HI","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":15,"State":"Hawaii"},{"Abbreviation":"ID","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":16,"State":"Idaho"},{"Abbreviation":"IL","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":17,"State":"Illinois"},{"Abbreviation":"IN","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":18,"State":"Indiana"},{"Abbreviation":"IA","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":19,"State":"Iowa"},{"Abbreviation":"KS","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":20,"State":"Kansas"},{"Abbreviation":"KY","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":21,"State":"Kentucky"},{"Abbreviation":"LA","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":22,"State":"Louisiana"},{"Abbreviation":"ME","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":23,"State":"Maine"},{"Abbreviation":"MH","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":24,"State":"Marshall
-        Islands"},{"Abbreviation":"MD","Continent":"North America","ContinentCode":"NA","Country":"United
-        States","CountryAbbreviation":"US","CountryId":1,"Id":25,"State":"Maryland"},{"Abbreviation":"MA","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":26,"State":"Massachusetts"},{"Abbreviation":"MI","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":27,"State":"Michigan"},{"Abbreviation":"MN","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":28,"State":"Minnesota"},{"Abbreviation":"MS","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":29,"State":"Mississippi"},{"Abbreviation":"MO","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":30,"State":"Missouri"},{"Abbreviation":"MT","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":31,"State":"Montana"},{"Abbreviation":"NE","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":32,"State":"Nebraska"},{"Abbreviation":"NV","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":33,"State":"Nevada"},{"Abbreviation":"NH","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":34,"State":"New
-        Hampshire"},{"Abbreviation":"NJ","Continent":"North America","ContinentCode":"NA","Country":"United
-        States","CountryAbbreviation":"US","CountryId":1,"Id":35,"State":"New Jersey"},{"Abbreviation":"NM","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":36,"State":"New
-        Mexico"},{"Abbreviation":"NY","Continent":"North America","ContinentCode":"NA","Country":"United
-        States","CountryAbbreviation":"US","CountryId":1,"Id":37,"State":"New York"},{"Abbreviation":"NC","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":38,"State":"North
-        Carolina"},{"Abbreviation":"ND","Continent":"North America","ContinentCode":"NA","Country":"United
-        States","CountryAbbreviation":"US","CountryId":1,"Id":39,"State":"North Dakota"},{"Abbreviation":"OH","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":40,"State":"Ohio"},{"Abbreviation":"OK","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":41,"State":"Oklahoma"},{"Abbreviation":"OR","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":42,"State":"Oregon"},{"Abbreviation":"PW","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":43,"State":"Palau"},{"Abbreviation":"PA","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":44,"State":"Pennsylvania"},{"Abbreviation":"PR","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":45,"State":"Puerto
-        Rico"},{"Abbreviation":"RI","Continent":"North America","ContinentCode":"NA","Country":"United
-        States","CountryAbbreviation":"US","CountryId":1,"Id":46,"State":"Rhode Island"},{"Abbreviation":"SC","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":47,"State":"South
-        Carolina"},{"Abbreviation":"SD","Continent":"North America","ContinentCode":"NA","Country":"United
-        States","CountryAbbreviation":"US","CountryId":1,"Id":48,"State":"South Dakota"},{"Abbreviation":"TN","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":49,"State":"Tennessee"},{"Abbreviation":"TX","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":50,"State":"Texas"},{"Abbreviation":"UT","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":51,"State":"Utah"},{"Abbreviation":"VT","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":52,"State":"Vermont"},{"Abbreviation":"VI","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":53,"State":"Virgin
-        Islands"},{"Abbreviation":"VA","Continent":"North America","ContinentCode":"NA","Country":"United
-        States","CountryAbbreviation":"US","CountryId":1,"Id":54,"State":"Virginia"},{"Abbreviation":"WA","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":55,"State":"Washington"},{"Abbreviation":"WV","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":56,"State":"West
-        Virginia"},{"Abbreviation":"WI","Continent":"North America","ContinentCode":"NA","Country":"United
-        States","CountryAbbreviation":"US","CountryId":1,"Id":57,"State":"Wisconsin"},{"Abbreviation":"WY","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":58,"State":"Wyoming"}]}'
-    http_version: '1.1'
-  recorded_at: Wed, 30 Jul 2014 02:27:48 GMT
-- request:
-    method: get
-    uri: https://www.zipcodeservices.com/services/rest/json/provinces.svc/<API_KEY>/1
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers: {}
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Length:
-      - '9671'
-      Content-Type:
-      - application/json; charset=utf-8
-      Server:
-      - Microsoft-IIS/7.5
-      X-Powered-By:
-      - ASP.NET
-      Date:
-      - Thu, 31 Jul 2014 03:34:28 GMT
-    body:
-      encoding: ASCII-8BIT
-      string: '{"GetAllProvincesByCountryIdResult":[{"Abbreviation":"AL","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":1,"State":"Alabama"},{"Abbreviation":"AK","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":2,"State":"Alaska"},{"Abbreviation":"AS","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":3,"State":"American
-        Samoa"},{"Abbreviation":"AZ","Continent":"North America","ContinentCode":"NA","Country":"United
-        States","CountryAbbreviation":"US","CountryId":1,"Id":4,"State":"Arizona"},{"Abbreviation":"AR","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":5,"State":"Arkansas"},{"Abbreviation":"CA","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":6,"State":"California"},{"Abbreviation":"CO","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":7,"State":"Colorado"},{"Abbreviation":"CT","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":8,"State":"Connecticut"},{"Abbreviation":"DC","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":9,"State":"District
-        Of Columbia"},{"Abbreviation":"DE","Continent":"North America","ContinentCode":"NA","Country":"United
-        States","CountryAbbreviation":"US","CountryId":1,"Id":10,"State":"Delaware"},{"Abbreviation":"FM","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":11,"State":"Federated
-        States of Micronesia"},{"Abbreviation":"FL","Continent":"North America","ContinentCode":"NA","Country":"United
-        States","CountryAbbreviation":"US","CountryId":1,"Id":12,"State":"Florida"},{"Abbreviation":"GA","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":13,"State":"Georgia"},{"Abbreviation":"GU","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":14,"State":"Guam"},{"Abbreviation":"HI","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":15,"State":"Hawaii"},{"Abbreviation":"ID","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":16,"State":"Idaho"},{"Abbreviation":"IL","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":17,"State":"Illinois"},{"Abbreviation":"IN","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":18,"State":"Indiana"},{"Abbreviation":"IA","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":19,"State":"Iowa"},{"Abbreviation":"KS","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":20,"State":"Kansas"},{"Abbreviation":"KY","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":21,"State":"Kentucky"},{"Abbreviation":"LA","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":22,"State":"Louisiana"},{"Abbreviation":"ME","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":23,"State":"Maine"},{"Abbreviation":"MH","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":24,"State":"Marshall
-        Islands"},{"Abbreviation":"MD","Continent":"North America","ContinentCode":"NA","Country":"United
-        States","CountryAbbreviation":"US","CountryId":1,"Id":25,"State":"Maryland"},{"Abbreviation":"MA","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":26,"State":"Massachusetts"},{"Abbreviation":"MI","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":27,"State":"Michigan"},{"Abbreviation":"MN","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":28,"State":"Minnesota"},{"Abbreviation":"MS","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":29,"State":"Mississippi"},{"Abbreviation":"MO","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":30,"State":"Missouri"},{"Abbreviation":"MT","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":31,"State":"Montana"},{"Abbreviation":"NE","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":32,"State":"Nebraska"},{"Abbreviation":"NV","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":33,"State":"Nevada"},{"Abbreviation":"NH","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":34,"State":"New
-        Hampshire"},{"Abbreviation":"NJ","Continent":"North America","ContinentCode":"NA","Country":"United
-        States","CountryAbbreviation":"US","CountryId":1,"Id":35,"State":"New Jersey"},{"Abbreviation":"NM","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":36,"State":"New
-        Mexico"},{"Abbreviation":"NY","Continent":"North America","ContinentCode":"NA","Country":"United
-        States","CountryAbbreviation":"US","CountryId":1,"Id":37,"State":"New York"},{"Abbreviation":"NC","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":38,"State":"North
-        Carolina"},{"Abbreviation":"ND","Continent":"North America","ContinentCode":"NA","Country":"United
-        States","CountryAbbreviation":"US","CountryId":1,"Id":39,"State":"North Dakota"},{"Abbreviation":"OH","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":40,"State":"Ohio"},{"Abbreviation":"OK","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":41,"State":"Oklahoma"},{"Abbreviation":"OR","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":42,"State":"Oregon"},{"Abbreviation":"PW","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":43,"State":"Palau"},{"Abbreviation":"PA","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":44,"State":"Pennsylvania"},{"Abbreviation":"PR","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":45,"State":"Puerto
-        Rico"},{"Abbreviation":"RI","Continent":"North America","ContinentCode":"NA","Country":"United
-        States","CountryAbbreviation":"US","CountryId":1,"Id":46,"State":"Rhode Island"},{"Abbreviation":"SC","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":47,"State":"South
-        Carolina"},{"Abbreviation":"SD","Continent":"North America","ContinentCode":"NA","Country":"United
-        States","CountryAbbreviation":"US","CountryId":1,"Id":48,"State":"South Dakota"},{"Abbreviation":"TN","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":49,"State":"Tennessee"},{"Abbreviation":"TX","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":50,"State":"Texas"},{"Abbreviation":"UT","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":51,"State":"Utah"},{"Abbreviation":"VT","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":52,"State":"Vermont"},{"Abbreviation":"VI","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":53,"State":"Virgin
-        Islands"},{"Abbreviation":"VA","Continent":"North America","ContinentCode":"NA","Country":"United
-        States","CountryAbbreviation":"US","CountryId":1,"Id":54,"State":"Virginia"},{"Abbreviation":"WA","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":55,"State":"Washington"},{"Abbreviation":"WV","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":56,"State":"West
-        Virginia"},{"Abbreviation":"WI","Continent":"North America","ContinentCode":"NA","Country":"United
-        States","CountryAbbreviation":"US","CountryId":1,"Id":57,"State":"Wisconsin"},{"Abbreviation":"WY","Continent":"North
-        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":58,"State":"Wyoming"}]}'
-    http_version: '1.1'
-  recorded_at: Thu, 31 Jul 2014 03:34:55 GMT
-- request:
-    method: get
     uri: https://www.zipcodeservices.com/services/rest/json/provinces.svc//1
     body:
       encoding: US-ASCII
@@ -793,4 +382,484 @@ http_interactions:
         L3A+DQogICAgPC9kaXY+DQogIDwvYm9keT4NCjwvaHRtbD4=
     http_version: '1.1'
   recorded_at: Thu, 31 Jul 2014 05:46:36 GMT
+- request:
+    method: get
+    uri: https://www.zipcodeservices.com/services/rest/json/provinces.svc/<API_KEY>/1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '9671'
+      Content-Type:
+      - application/json; charset=utf-8
+      Server:
+      - Microsoft-IIS/7.5
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Thu, 31 Jul 2014 19:57:58 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: '{"GetAllProvincesByCountryIdResult":[{"Abbreviation":"AL","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":1,"State":"Alabama"},{"Abbreviation":"AK","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":2,"State":"Alaska"},{"Abbreviation":"AS","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":3,"State":"American
+        Samoa"},{"Abbreviation":"AZ","Continent":"North America","ContinentCode":"NA","Country":"United
+        States","CountryAbbreviation":"US","CountryId":1,"Id":4,"State":"Arizona"},{"Abbreviation":"AR","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":5,"State":"Arkansas"},{"Abbreviation":"CA","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":6,"State":"California"},{"Abbreviation":"CO","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":7,"State":"Colorado"},{"Abbreviation":"CT","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":8,"State":"Connecticut"},{"Abbreviation":"DC","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":9,"State":"District
+        Of Columbia"},{"Abbreviation":"DE","Continent":"North America","ContinentCode":"NA","Country":"United
+        States","CountryAbbreviation":"US","CountryId":1,"Id":10,"State":"Delaware"},{"Abbreviation":"FM","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":11,"State":"Federated
+        States of Micronesia"},{"Abbreviation":"FL","Continent":"North America","ContinentCode":"NA","Country":"United
+        States","CountryAbbreviation":"US","CountryId":1,"Id":12,"State":"Florida"},{"Abbreviation":"GA","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":13,"State":"Georgia"},{"Abbreviation":"GU","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":14,"State":"Guam"},{"Abbreviation":"HI","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":15,"State":"Hawaii"},{"Abbreviation":"ID","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":16,"State":"Idaho"},{"Abbreviation":"IL","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":17,"State":"Illinois"},{"Abbreviation":"IN","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":18,"State":"Indiana"},{"Abbreviation":"IA","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":19,"State":"Iowa"},{"Abbreviation":"KS","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":20,"State":"Kansas"},{"Abbreviation":"KY","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":21,"State":"Kentucky"},{"Abbreviation":"LA","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":22,"State":"Louisiana"},{"Abbreviation":"ME","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":23,"State":"Maine"},{"Abbreviation":"MH","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":24,"State":"Marshall
+        Islands"},{"Abbreviation":"MD","Continent":"North America","ContinentCode":"NA","Country":"United
+        States","CountryAbbreviation":"US","CountryId":1,"Id":25,"State":"Maryland"},{"Abbreviation":"MA","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":26,"State":"Massachusetts"},{"Abbreviation":"MI","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":27,"State":"Michigan"},{"Abbreviation":"MN","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":28,"State":"Minnesota"},{"Abbreviation":"MS","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":29,"State":"Mississippi"},{"Abbreviation":"MO","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":30,"State":"Missouri"},{"Abbreviation":"MT","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":31,"State":"Montana"},{"Abbreviation":"NE","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":32,"State":"Nebraska"},{"Abbreviation":"NV","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":33,"State":"Nevada"},{"Abbreviation":"NH","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":34,"State":"New
+        Hampshire"},{"Abbreviation":"NJ","Continent":"North America","ContinentCode":"NA","Country":"United
+        States","CountryAbbreviation":"US","CountryId":1,"Id":35,"State":"New Jersey"},{"Abbreviation":"NM","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":36,"State":"New
+        Mexico"},{"Abbreviation":"NY","Continent":"North America","ContinentCode":"NA","Country":"United
+        States","CountryAbbreviation":"US","CountryId":1,"Id":37,"State":"New York"},{"Abbreviation":"NC","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":38,"State":"North
+        Carolina"},{"Abbreviation":"ND","Continent":"North America","ContinentCode":"NA","Country":"United
+        States","CountryAbbreviation":"US","CountryId":1,"Id":39,"State":"North Dakota"},{"Abbreviation":"OH","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":40,"State":"Ohio"},{"Abbreviation":"OK","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":41,"State":"Oklahoma"},{"Abbreviation":"OR","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":42,"State":"Oregon"},{"Abbreviation":"PW","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":43,"State":"Palau"},{"Abbreviation":"PA","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":44,"State":"Pennsylvania"},{"Abbreviation":"PR","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":45,"State":"Puerto
+        Rico"},{"Abbreviation":"RI","Continent":"North America","ContinentCode":"NA","Country":"United
+        States","CountryAbbreviation":"US","CountryId":1,"Id":46,"State":"Rhode Island"},{"Abbreviation":"SC","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":47,"State":"South
+        Carolina"},{"Abbreviation":"SD","Continent":"North America","ContinentCode":"NA","Country":"United
+        States","CountryAbbreviation":"US","CountryId":1,"Id":48,"State":"South Dakota"},{"Abbreviation":"TN","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":49,"State":"Tennessee"},{"Abbreviation":"TX","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":50,"State":"Texas"},{"Abbreviation":"UT","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":51,"State":"Utah"},{"Abbreviation":"VT","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":52,"State":"Vermont"},{"Abbreviation":"VI","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":53,"State":"Virgin
+        Islands"},{"Abbreviation":"VA","Continent":"North America","ContinentCode":"NA","Country":"United
+        States","CountryAbbreviation":"US","CountryId":1,"Id":54,"State":"Virginia"},{"Abbreviation":"WA","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":55,"State":"Washington"},{"Abbreviation":"WV","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":56,"State":"West
+        Virginia"},{"Abbreviation":"WI","Continent":"North America","ContinentCode":"NA","Country":"United
+        States","CountryAbbreviation":"US","CountryId":1,"Id":57,"State":"Wisconsin"},{"Abbreviation":"WY","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":58,"State":"Wyoming"}]}'
+    http_version: '1.1'
+  recorded_at: Thu, 31 Jul 2014 19:57:59 GMT
+- request:
+    method: get
+    uri: https://www.zipcodeservices.com/services/rest/json/provinces.svc/<API_KEY>/1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '9671'
+      Content-Type:
+      - application/json; charset=utf-8
+      Server:
+      - Microsoft-IIS/7.5
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Thu, 31 Jul 2014 23:41:05 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: '{"GetAllProvincesByCountryIdResult":[{"Abbreviation":"AL","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":1,"State":"Alabama"},{"Abbreviation":"AK","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":2,"State":"Alaska"},{"Abbreviation":"AS","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":3,"State":"American
+        Samoa"},{"Abbreviation":"AZ","Continent":"North America","ContinentCode":"NA","Country":"United
+        States","CountryAbbreviation":"US","CountryId":1,"Id":4,"State":"Arizona"},{"Abbreviation":"AR","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":5,"State":"Arkansas"},{"Abbreviation":"CA","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":6,"State":"California"},{"Abbreviation":"CO","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":7,"State":"Colorado"},{"Abbreviation":"CT","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":8,"State":"Connecticut"},{"Abbreviation":"DC","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":9,"State":"District
+        Of Columbia"},{"Abbreviation":"DE","Continent":"North America","ContinentCode":"NA","Country":"United
+        States","CountryAbbreviation":"US","CountryId":1,"Id":10,"State":"Delaware"},{"Abbreviation":"FM","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":11,"State":"Federated
+        States of Micronesia"},{"Abbreviation":"FL","Continent":"North America","ContinentCode":"NA","Country":"United
+        States","CountryAbbreviation":"US","CountryId":1,"Id":12,"State":"Florida"},{"Abbreviation":"GA","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":13,"State":"Georgia"},{"Abbreviation":"GU","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":14,"State":"Guam"},{"Abbreviation":"HI","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":15,"State":"Hawaii"},{"Abbreviation":"ID","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":16,"State":"Idaho"},{"Abbreviation":"IL","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":17,"State":"Illinois"},{"Abbreviation":"IN","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":18,"State":"Indiana"},{"Abbreviation":"IA","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":19,"State":"Iowa"},{"Abbreviation":"KS","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":20,"State":"Kansas"},{"Abbreviation":"KY","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":21,"State":"Kentucky"},{"Abbreviation":"LA","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":22,"State":"Louisiana"},{"Abbreviation":"ME","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":23,"State":"Maine"},{"Abbreviation":"MH","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":24,"State":"Marshall
+        Islands"},{"Abbreviation":"MD","Continent":"North America","ContinentCode":"NA","Country":"United
+        States","CountryAbbreviation":"US","CountryId":1,"Id":25,"State":"Maryland"},{"Abbreviation":"MA","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":26,"State":"Massachusetts"},{"Abbreviation":"MI","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":27,"State":"Michigan"},{"Abbreviation":"MN","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":28,"State":"Minnesota"},{"Abbreviation":"MS","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":29,"State":"Mississippi"},{"Abbreviation":"MO","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":30,"State":"Missouri"},{"Abbreviation":"MT","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":31,"State":"Montana"},{"Abbreviation":"NE","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":32,"State":"Nebraska"},{"Abbreviation":"NV","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":33,"State":"Nevada"},{"Abbreviation":"NH","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":34,"State":"New
+        Hampshire"},{"Abbreviation":"NJ","Continent":"North America","ContinentCode":"NA","Country":"United
+        States","CountryAbbreviation":"US","CountryId":1,"Id":35,"State":"New Jersey"},{"Abbreviation":"NM","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":36,"State":"New
+        Mexico"},{"Abbreviation":"NY","Continent":"North America","ContinentCode":"NA","Country":"United
+        States","CountryAbbreviation":"US","CountryId":1,"Id":37,"State":"New York"},{"Abbreviation":"NC","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":38,"State":"North
+        Carolina"},{"Abbreviation":"ND","Continent":"North America","ContinentCode":"NA","Country":"United
+        States","CountryAbbreviation":"US","CountryId":1,"Id":39,"State":"North Dakota"},{"Abbreviation":"OH","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":40,"State":"Ohio"},{"Abbreviation":"OK","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":41,"State":"Oklahoma"},{"Abbreviation":"OR","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":42,"State":"Oregon"},{"Abbreviation":"PW","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":43,"State":"Palau"},{"Abbreviation":"PA","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":44,"State":"Pennsylvania"},{"Abbreviation":"PR","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":45,"State":"Puerto
+        Rico"},{"Abbreviation":"RI","Continent":"North America","ContinentCode":"NA","Country":"United
+        States","CountryAbbreviation":"US","CountryId":1,"Id":46,"State":"Rhode Island"},{"Abbreviation":"SC","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":47,"State":"South
+        Carolina"},{"Abbreviation":"SD","Continent":"North America","ContinentCode":"NA","Country":"United
+        States","CountryAbbreviation":"US","CountryId":1,"Id":48,"State":"South Dakota"},{"Abbreviation":"TN","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":49,"State":"Tennessee"},{"Abbreviation":"TX","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":50,"State":"Texas"},{"Abbreviation":"UT","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":51,"State":"Utah"},{"Abbreviation":"VT","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":52,"State":"Vermont"},{"Abbreviation":"VI","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":53,"State":"Virgin
+        Islands"},{"Abbreviation":"VA","Continent":"North America","ContinentCode":"NA","Country":"United
+        States","CountryAbbreviation":"US","CountryId":1,"Id":54,"State":"Virginia"},{"Abbreviation":"WA","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":55,"State":"Washington"},{"Abbreviation":"WV","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":56,"State":"West
+        Virginia"},{"Abbreviation":"WI","Continent":"North America","ContinentCode":"NA","Country":"United
+        States","CountryAbbreviation":"US","CountryId":1,"Id":57,"State":"Wisconsin"},{"Abbreviation":"WY","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":58,"State":"Wyoming"}]}'
+    http_version: '1.1'
+  recorded_at: Thu, 31 Jul 2014 23:41:07 GMT
+- request:
+    method: get
+    uri: https://www.zipcodeservices.com/services/rest/json/provinces.svc/<API_KEY>/1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '9671'
+      Content-Type:
+      - application/json; charset=utf-8
+      Server:
+      - Microsoft-IIS/7.5
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Thu, 31 Jul 2014 23:56:11 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: '{"GetAllProvincesByCountryIdResult":[{"Abbreviation":"AL","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":1,"State":"Alabama"},{"Abbreviation":"AK","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":2,"State":"Alaska"},{"Abbreviation":"AS","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":3,"State":"American
+        Samoa"},{"Abbreviation":"AZ","Continent":"North America","ContinentCode":"NA","Country":"United
+        States","CountryAbbreviation":"US","CountryId":1,"Id":4,"State":"Arizona"},{"Abbreviation":"AR","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":5,"State":"Arkansas"},{"Abbreviation":"CA","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":6,"State":"California"},{"Abbreviation":"CO","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":7,"State":"Colorado"},{"Abbreviation":"CT","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":8,"State":"Connecticut"},{"Abbreviation":"DC","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":9,"State":"District
+        Of Columbia"},{"Abbreviation":"DE","Continent":"North America","ContinentCode":"NA","Country":"United
+        States","CountryAbbreviation":"US","CountryId":1,"Id":10,"State":"Delaware"},{"Abbreviation":"FM","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":11,"State":"Federated
+        States of Micronesia"},{"Abbreviation":"FL","Continent":"North America","ContinentCode":"NA","Country":"United
+        States","CountryAbbreviation":"US","CountryId":1,"Id":12,"State":"Florida"},{"Abbreviation":"GA","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":13,"State":"Georgia"},{"Abbreviation":"GU","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":14,"State":"Guam"},{"Abbreviation":"HI","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":15,"State":"Hawaii"},{"Abbreviation":"ID","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":16,"State":"Idaho"},{"Abbreviation":"IL","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":17,"State":"Illinois"},{"Abbreviation":"IN","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":18,"State":"Indiana"},{"Abbreviation":"IA","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":19,"State":"Iowa"},{"Abbreviation":"KS","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":20,"State":"Kansas"},{"Abbreviation":"KY","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":21,"State":"Kentucky"},{"Abbreviation":"LA","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":22,"State":"Louisiana"},{"Abbreviation":"ME","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":23,"State":"Maine"},{"Abbreviation":"MH","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":24,"State":"Marshall
+        Islands"},{"Abbreviation":"MD","Continent":"North America","ContinentCode":"NA","Country":"United
+        States","CountryAbbreviation":"US","CountryId":1,"Id":25,"State":"Maryland"},{"Abbreviation":"MA","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":26,"State":"Massachusetts"},{"Abbreviation":"MI","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":27,"State":"Michigan"},{"Abbreviation":"MN","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":28,"State":"Minnesota"},{"Abbreviation":"MS","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":29,"State":"Mississippi"},{"Abbreviation":"MO","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":30,"State":"Missouri"},{"Abbreviation":"MT","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":31,"State":"Montana"},{"Abbreviation":"NE","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":32,"State":"Nebraska"},{"Abbreviation":"NV","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":33,"State":"Nevada"},{"Abbreviation":"NH","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":34,"State":"New
+        Hampshire"},{"Abbreviation":"NJ","Continent":"North America","ContinentCode":"NA","Country":"United
+        States","CountryAbbreviation":"US","CountryId":1,"Id":35,"State":"New Jersey"},{"Abbreviation":"NM","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":36,"State":"New
+        Mexico"},{"Abbreviation":"NY","Continent":"North America","ContinentCode":"NA","Country":"United
+        States","CountryAbbreviation":"US","CountryId":1,"Id":37,"State":"New York"},{"Abbreviation":"NC","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":38,"State":"North
+        Carolina"},{"Abbreviation":"ND","Continent":"North America","ContinentCode":"NA","Country":"United
+        States","CountryAbbreviation":"US","CountryId":1,"Id":39,"State":"North Dakota"},{"Abbreviation":"OH","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":40,"State":"Ohio"},{"Abbreviation":"OK","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":41,"State":"Oklahoma"},{"Abbreviation":"OR","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":42,"State":"Oregon"},{"Abbreviation":"PW","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":43,"State":"Palau"},{"Abbreviation":"PA","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":44,"State":"Pennsylvania"},{"Abbreviation":"PR","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":45,"State":"Puerto
+        Rico"},{"Abbreviation":"RI","Continent":"North America","ContinentCode":"NA","Country":"United
+        States","CountryAbbreviation":"US","CountryId":1,"Id":46,"State":"Rhode Island"},{"Abbreviation":"SC","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":47,"State":"South
+        Carolina"},{"Abbreviation":"SD","Continent":"North America","ContinentCode":"NA","Country":"United
+        States","CountryAbbreviation":"US","CountryId":1,"Id":48,"State":"South Dakota"},{"Abbreviation":"TN","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":49,"State":"Tennessee"},{"Abbreviation":"TX","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":50,"State":"Texas"},{"Abbreviation":"UT","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":51,"State":"Utah"},{"Abbreviation":"VT","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":52,"State":"Vermont"},{"Abbreviation":"VI","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":53,"State":"Virgin
+        Islands"},{"Abbreviation":"VA","Continent":"North America","ContinentCode":"NA","Country":"United
+        States","CountryAbbreviation":"US","CountryId":1,"Id":54,"State":"Virginia"},{"Abbreviation":"WA","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":55,"State":"Washington"},{"Abbreviation":"WV","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":56,"State":"West
+        Virginia"},{"Abbreviation":"WI","Continent":"North America","ContinentCode":"NA","Country":"United
+        States","CountryAbbreviation":"US","CountryId":1,"Id":57,"State":"Wisconsin"},{"Abbreviation":"WY","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":58,"State":"Wyoming"}]}'
+    http_version: '1.1'
+  recorded_at: Thu, 31 Jul 2014 23:56:14 GMT
+- request:
+    method: get
+    uri: https://www.zipcodeservices.com/services/rest/json/provinces.svc/<API_KEY>/1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '9671'
+      Content-Type:
+      - application/json; charset=utf-8
+      Server:
+      - Microsoft-IIS/7.5
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Thu, 21 Aug 2014 17:51:58 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: '{"GetAllProvincesByCountryIdResult":[{"Abbreviation":"AL","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":1,"State":"Alabama"},{"Abbreviation":"AK","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":2,"State":"Alaska"},{"Abbreviation":"AS","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":3,"State":"American
+        Samoa"},{"Abbreviation":"AZ","Continent":"North America","ContinentCode":"NA","Country":"United
+        States","CountryAbbreviation":"US","CountryId":1,"Id":4,"State":"Arizona"},{"Abbreviation":"AR","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":5,"State":"Arkansas"},{"Abbreviation":"CA","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":6,"State":"California"},{"Abbreviation":"CO","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":7,"State":"Colorado"},{"Abbreviation":"CT","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":8,"State":"Connecticut"},{"Abbreviation":"DC","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":9,"State":"District
+        Of Columbia"},{"Abbreviation":"DE","Continent":"North America","ContinentCode":"NA","Country":"United
+        States","CountryAbbreviation":"US","CountryId":1,"Id":10,"State":"Delaware"},{"Abbreviation":"FM","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":11,"State":"Federated
+        States of Micronesia"},{"Abbreviation":"FL","Continent":"North America","ContinentCode":"NA","Country":"United
+        States","CountryAbbreviation":"US","CountryId":1,"Id":12,"State":"Florida"},{"Abbreviation":"GA","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":13,"State":"Georgia"},{"Abbreviation":"GU","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":14,"State":"Guam"},{"Abbreviation":"HI","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":15,"State":"Hawaii"},{"Abbreviation":"ID","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":16,"State":"Idaho"},{"Abbreviation":"IL","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":17,"State":"Illinois"},{"Abbreviation":"IN","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":18,"State":"Indiana"},{"Abbreviation":"IA","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":19,"State":"Iowa"},{"Abbreviation":"KS","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":20,"State":"Kansas"},{"Abbreviation":"KY","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":21,"State":"Kentucky"},{"Abbreviation":"LA","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":22,"State":"Louisiana"},{"Abbreviation":"ME","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":23,"State":"Maine"},{"Abbreviation":"MH","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":24,"State":"Marshall
+        Islands"},{"Abbreviation":"MD","Continent":"North America","ContinentCode":"NA","Country":"United
+        States","CountryAbbreviation":"US","CountryId":1,"Id":25,"State":"Maryland"},{"Abbreviation":"MA","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":26,"State":"Massachusetts"},{"Abbreviation":"MI","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":27,"State":"Michigan"},{"Abbreviation":"MN","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":28,"State":"Minnesota"},{"Abbreviation":"MS","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":29,"State":"Mississippi"},{"Abbreviation":"MO","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":30,"State":"Missouri"},{"Abbreviation":"MT","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":31,"State":"Montana"},{"Abbreviation":"NE","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":32,"State":"Nebraska"},{"Abbreviation":"NV","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":33,"State":"Nevada"},{"Abbreviation":"NH","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":34,"State":"New
+        Hampshire"},{"Abbreviation":"NJ","Continent":"North America","ContinentCode":"NA","Country":"United
+        States","CountryAbbreviation":"US","CountryId":1,"Id":35,"State":"New Jersey"},{"Abbreviation":"NM","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":36,"State":"New
+        Mexico"},{"Abbreviation":"NY","Continent":"North America","ContinentCode":"NA","Country":"United
+        States","CountryAbbreviation":"US","CountryId":1,"Id":37,"State":"New York"},{"Abbreviation":"NC","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":38,"State":"North
+        Carolina"},{"Abbreviation":"ND","Continent":"North America","ContinentCode":"NA","Country":"United
+        States","CountryAbbreviation":"US","CountryId":1,"Id":39,"State":"North Dakota"},{"Abbreviation":"OH","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":40,"State":"Ohio"},{"Abbreviation":"OK","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":41,"State":"Oklahoma"},{"Abbreviation":"OR","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":42,"State":"Oregon"},{"Abbreviation":"PW","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":43,"State":"Palau"},{"Abbreviation":"PA","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":44,"State":"Pennsylvania"},{"Abbreviation":"PR","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":45,"State":"Puerto
+        Rico"},{"Abbreviation":"RI","Continent":"North America","ContinentCode":"NA","Country":"United
+        States","CountryAbbreviation":"US","CountryId":1,"Id":46,"State":"Rhode Island"},{"Abbreviation":"SC","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":47,"State":"South
+        Carolina"},{"Abbreviation":"SD","Continent":"North America","ContinentCode":"NA","Country":"United
+        States","CountryAbbreviation":"US","CountryId":1,"Id":48,"State":"South Dakota"},{"Abbreviation":"TN","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":49,"State":"Tennessee"},{"Abbreviation":"TX","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":50,"State":"Texas"},{"Abbreviation":"UT","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":51,"State":"Utah"},{"Abbreviation":"VT","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":52,"State":"Vermont"},{"Abbreviation":"VI","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":53,"State":"Virgin
+        Islands"},{"Abbreviation":"VA","Continent":"North America","ContinentCode":"NA","Country":"United
+        States","CountryAbbreviation":"US","CountryId":1,"Id":54,"State":"Virginia"},{"Abbreviation":"WA","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":55,"State":"Washington"},{"Abbreviation":"WV","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":56,"State":"West
+        Virginia"},{"Abbreviation":"WI","Continent":"North America","ContinentCode":"NA","Country":"United
+        States","CountryAbbreviation":"US","CountryId":1,"Id":57,"State":"Wisconsin"},{"Abbreviation":"WY","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":58,"State":"Wyoming"}]}'
+    http_version: '1.1'
+  recorded_at: Thu, 21 Aug 2014 17:52:00 GMT
+- request:
+    method: get
+    uri: https://www.zipcodeservices.com/services/rest/json/provinces.svc/<API_KEY>/1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '9671'
+      Content-Type:
+      - application/json; charset=utf-8
+      Server:
+      - Microsoft-IIS/7.5
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Thu, 21 Aug 2014 17:59:00 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: '{"GetAllProvincesByCountryIdResult":[{"Abbreviation":"AL","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":1,"State":"Alabama"},{"Abbreviation":"AK","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":2,"State":"Alaska"},{"Abbreviation":"AS","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":3,"State":"American
+        Samoa"},{"Abbreviation":"AZ","Continent":"North America","ContinentCode":"NA","Country":"United
+        States","CountryAbbreviation":"US","CountryId":1,"Id":4,"State":"Arizona"},{"Abbreviation":"AR","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":5,"State":"Arkansas"},{"Abbreviation":"CA","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":6,"State":"California"},{"Abbreviation":"CO","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":7,"State":"Colorado"},{"Abbreviation":"CT","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":8,"State":"Connecticut"},{"Abbreviation":"DC","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":9,"State":"District
+        Of Columbia"},{"Abbreviation":"DE","Continent":"North America","ContinentCode":"NA","Country":"United
+        States","CountryAbbreviation":"US","CountryId":1,"Id":10,"State":"Delaware"},{"Abbreviation":"FM","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":11,"State":"Federated
+        States of Micronesia"},{"Abbreviation":"FL","Continent":"North America","ContinentCode":"NA","Country":"United
+        States","CountryAbbreviation":"US","CountryId":1,"Id":12,"State":"Florida"},{"Abbreviation":"GA","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":13,"State":"Georgia"},{"Abbreviation":"GU","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":14,"State":"Guam"},{"Abbreviation":"HI","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":15,"State":"Hawaii"},{"Abbreviation":"ID","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":16,"State":"Idaho"},{"Abbreviation":"IL","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":17,"State":"Illinois"},{"Abbreviation":"IN","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":18,"State":"Indiana"},{"Abbreviation":"IA","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":19,"State":"Iowa"},{"Abbreviation":"KS","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":20,"State":"Kansas"},{"Abbreviation":"KY","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":21,"State":"Kentucky"},{"Abbreviation":"LA","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":22,"State":"Louisiana"},{"Abbreviation":"ME","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":23,"State":"Maine"},{"Abbreviation":"MH","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":24,"State":"Marshall
+        Islands"},{"Abbreviation":"MD","Continent":"North America","ContinentCode":"NA","Country":"United
+        States","CountryAbbreviation":"US","CountryId":1,"Id":25,"State":"Maryland"},{"Abbreviation":"MA","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":26,"State":"Massachusetts"},{"Abbreviation":"MI","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":27,"State":"Michigan"},{"Abbreviation":"MN","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":28,"State":"Minnesota"},{"Abbreviation":"MS","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":29,"State":"Mississippi"},{"Abbreviation":"MO","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":30,"State":"Missouri"},{"Abbreviation":"MT","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":31,"State":"Montana"},{"Abbreviation":"NE","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":32,"State":"Nebraska"},{"Abbreviation":"NV","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":33,"State":"Nevada"},{"Abbreviation":"NH","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":34,"State":"New
+        Hampshire"},{"Abbreviation":"NJ","Continent":"North America","ContinentCode":"NA","Country":"United
+        States","CountryAbbreviation":"US","CountryId":1,"Id":35,"State":"New Jersey"},{"Abbreviation":"NM","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":36,"State":"New
+        Mexico"},{"Abbreviation":"NY","Continent":"North America","ContinentCode":"NA","Country":"United
+        States","CountryAbbreviation":"US","CountryId":1,"Id":37,"State":"New York"},{"Abbreviation":"NC","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":38,"State":"North
+        Carolina"},{"Abbreviation":"ND","Continent":"North America","ContinentCode":"NA","Country":"United
+        States","CountryAbbreviation":"US","CountryId":1,"Id":39,"State":"North Dakota"},{"Abbreviation":"OH","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":40,"State":"Ohio"},{"Abbreviation":"OK","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":41,"State":"Oklahoma"},{"Abbreviation":"OR","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":42,"State":"Oregon"},{"Abbreviation":"PW","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":43,"State":"Palau"},{"Abbreviation":"PA","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":44,"State":"Pennsylvania"},{"Abbreviation":"PR","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":45,"State":"Puerto
+        Rico"},{"Abbreviation":"RI","Continent":"North America","ContinentCode":"NA","Country":"United
+        States","CountryAbbreviation":"US","CountryId":1,"Id":46,"State":"Rhode Island"},{"Abbreviation":"SC","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":47,"State":"South
+        Carolina"},{"Abbreviation":"SD","Continent":"North America","ContinentCode":"NA","Country":"United
+        States","CountryAbbreviation":"US","CountryId":1,"Id":48,"State":"South Dakota"},{"Abbreviation":"TN","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":49,"State":"Tennessee"},{"Abbreviation":"TX","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":50,"State":"Texas"},{"Abbreviation":"UT","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":51,"State":"Utah"},{"Abbreviation":"VT","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":52,"State":"Vermont"},{"Abbreviation":"VI","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":53,"State":"Virgin
+        Islands"},{"Abbreviation":"VA","Continent":"North America","ContinentCode":"NA","Country":"United
+        States","CountryAbbreviation":"US","CountryId":1,"Id":54,"State":"Virginia"},{"Abbreviation":"WA","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":55,"State":"Washington"},{"Abbreviation":"WV","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":56,"State":"West
+        Virginia"},{"Abbreviation":"WI","Continent":"North America","ContinentCode":"NA","Country":"United
+        States","CountryAbbreviation":"US","CountryId":1,"Id":57,"State":"Wisconsin"},{"Abbreviation":"WY","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryAbbreviation":"US","CountryId":1,"Id":58,"State":"Wyoming"}]}'
+    http_version: '1.1'
+  recorded_at: Thu, 21 Aug 2014 17:59:03 GMT
 recorded_with: VCR 2.9.2

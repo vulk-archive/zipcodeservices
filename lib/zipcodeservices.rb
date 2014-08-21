@@ -38,7 +38,7 @@ module ZipCodeServices
       end 
     end
 
-    def radius(zip, rad)
+    def get_zipcodes_in_radius_of_zipcode(zip, rad)
       response = Typhoeus::Request.get( "#{base_uri}/zipcodes.svc/#{apikey}/#{zip}/#{rad}") 
       if response.code == 200 
         if data_format == :xml
@@ -56,7 +56,7 @@ module ZipCodeServices
       end 
     end
 
-    def radius_by_latlong(lat, lon, rad)
+    def get_zips_in_radius_of_latlong(lat, lon, rad)
       response = Typhoeus::Request.get( "#{base_uri}/zipcodes.svc/GetZipCodesInRadiusLatLong?apikey=#{apikey}&latitude=#{lat}&longitude=#{lon}&radius=#{rad}") 
       if response.code == 200 
 				if data_format == :xml

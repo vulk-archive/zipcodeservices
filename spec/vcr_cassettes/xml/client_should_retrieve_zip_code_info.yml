@@ -2,36 +2,6 @@
 http_interactions:
 - request:
     method: get
-    uri: https://www.zipcodeservices.com/services/rest/xml/zipcodes.svc/<API_KEY>/78702
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers: {}
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Length:
-      - '621'
-      Content-Type:
-      - application/xml; charset=utf-8
-      Server:
-      - Microsoft-IIS/7.5
-      X-Powered-By:
-      - ASP.NET
-      Date:
-      - Thu, 31 Jul 2014 03:34:28 GMT
-    body:
-      encoding: ASCII-8BIT
-      string: <RetrieveZipCodeInfoResponse xmlns="http://tempuri.org/"><RetrieveZipCodeInfoResult
-        xmlns:a="http://schemas.datacontract.org/2004/07/Zips.DTO" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><a:City>Austin</a:City><a:Continent>North
-        America</a:Continent><a:ContinentCode>NA</a:ContinentCode><a:Country>United
-        States</a:Country><a:CountryCode>US</a:CountryCode><a:County>Travis Williamson</a:County><a:Latitude>30.295800</a:Latitude><a:Longitude>-97.810100</a:Longitude><a:PostalCode>78702</a:PostalCode><a:State>Texas</a:State><a:StateCode>Texas</a:StateCode></RetrieveZipCodeInfoResult></RetrieveZipCodeInfoResponse>
-    http_version: '1.1'
-  recorded_at: Thu, 31 Jul 2014 03:34:55 GMT
-- request:
-    method: get
     uri: https://www.zipcodeservices.com/services/rest/xml/zipcodes.svc//78702
     body:
       encoding: US-ASCII
@@ -92,4 +62,34 @@ http_interactions:
         L3A+DQogICAgPC9kaXY+DQogIDwvYm9keT4NCjwvaHRtbD4=
     http_version: '1.1'
   recorded_at: Thu, 31 Jul 2014 05:46:36 GMT
+- request:
+    method: get
+    uri: https://www.zipcodeservices.com/services/rest/xml/zipcodes.svc/<API_KEY>/78702
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '621'
+      Content-Type:
+      - application/xml; charset=utf-8
+      Server:
+      - Microsoft-IIS/7.5
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Thu, 21 Aug 2014 17:59:03 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: <RetrieveZipCodeInfoResponse xmlns="http://tempuri.org/"><RetrieveZipCodeInfoResult
+        xmlns:a="http://schemas.datacontract.org/2004/07/Zips.DTO" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><a:City>Austin</a:City><a:Continent>North
+        America</a:Continent><a:ContinentCode>NA</a:ContinentCode><a:Country>United
+        States</a:Country><a:CountryCode>US</a:CountryCode><a:County>Travis Williamson</a:County><a:Latitude>30.295800</a:Latitude><a:Longitude>-97.810100</a:Longitude><a:PostalCode>78702</a:PostalCode><a:State>Texas</a:State><a:StateCode>Texas</a:StateCode></RetrieveZipCodeInfoResult></RetrieveZipCodeInfoResponse>
+    http_version: '1.1'
+  recorded_at: Thu, 21 Aug 2014 17:59:05 GMT
 recorded_with: VCR 2.9.2

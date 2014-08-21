@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.date        = '2014-05-06'
   s.summary     = "zipcodeservices for zipcodeservices.com"
   s.description = "Ruby Client for zipcodeservices.com.  Gives ip address and radius queries.  Visit zipcodeservices.com for more details"
-  s.authors     = ["W Watson", "T Carpenter", "Jay Smith"]
+  s.authors     = ["W Watson", "T Carpenter", "Jay Smith", "Rachel Loziuk"]
   s.email       = 'wolfpack@vulk.com'
   s.files       = ["lib/zipcodeservices.rb"]
   s.homepage    = 'http://github.com/vulk/zipcodeservices'

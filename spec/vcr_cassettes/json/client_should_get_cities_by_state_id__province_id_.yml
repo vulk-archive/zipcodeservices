@@ -2,37 +2,6 @@
 http_interactions:
 - request:
     method: get
-    uri: https://www.zipcodeservices.com/services/rest/json/cities.svc/<API_KEY>/200
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers: {}
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Length:
-      - '2361'
-      Content-Type:
-      - application/json; charset=utf-8
-      Server:
-      - Microsoft-IIS/7.5
-      X-Powered-By:
-      - ASP.NET
-      Date:
-      - Thu, 31 Jul 2014 03:34:28 GMT
-    body:
-      encoding: ASCII-8BIT
-      string: '{"GetCitiesByProvinceResult":[{"City":"Alamo","Country":"Spain","CountryAbbreviation":"ES","CountryId":101,"County":"Andalucia","Id":8641,"Province":"Sevilla","ProvinceAbbreviation":"SE","ProvinceId":200},{"City":"Alcala","Country":"Spain","CountryAbbreviation":"ES","CountryId":101,"County":"Andalucia","Id":8642,"Province":"Sevilla","ProvinceAbbreviation":"SE","ProvinceId":200},{"City":"Brenes","Country":"Spain","CountryAbbreviation":"ES","CountryId":101,"County":"Andalucia","Id":8643,"Province":"Sevilla","ProvinceAbbreviation":"SE","ProvinceId":200},{"City":"Dos
-        Hermanas","Country":"Spain","CountryAbbreviation":"ES","CountryId":101,"County":"Andalucia","Id":8644,"Province":"Sevilla","ProvinceAbbreviation":"SE","ProvinceId":200},{"City":"Ecija","Country":"Spain","CountryAbbreviation":"ES","CountryId":101,"County":"Andalucia","Id":8645,"Province":"Sevilla","ProvinceAbbreviation":"SE","ProvinceId":200},{"City":"Gines","Country":"Spain","CountryAbbreviation":"ES","CountryId":101,"County":"Andalucia","Id":8646,"Province":"Sevilla","ProvinceAbbreviation":"SE","ProvinceId":200},{"City":"Herrera","Country":"Spain","CountryAbbreviation":"ES","CountryId":101,"County":"Andalucia","Id":8647,"Province":"Sevilla","ProvinceAbbreviation":"SE","ProvinceId":200},{"City":"La
-        Rinconada","Country":"Spain","CountryAbbreviation":"ES","CountryId":101,"County":"Andalucia","Id":8648,"Province":"Sevilla","ProvinceAbbreviation":"SE","ProvinceId":200},{"City":"Mairena
-        Del Aljarafe","Country":"Spain","CountryAbbreviation":"ES","CountryId":101,"County":"Andalucia","Id":8649,"Province":"Sevilla","ProvinceAbbreviation":"SE","ProvinceId":200},{"City":"Osuna","Country":"Spain","CountryAbbreviation":"ES","CountryId":101,"County":"Andalucia","Id":8650,"Province":"Sevilla","ProvinceAbbreviation":"SE","ProvinceId":200},{"City":"San
-        Juan De Aznalfarache","Country":"Spain","CountryAbbreviation":"ES","CountryId":101,"County":"Andalucia","Id":8651,"Province":"Sevilla","ProvinceAbbreviation":"SE","ProvinceId":200},{"City":"Sevilla","Country":"Spain","CountryAbbreviation":"ES","CountryId":101,"County":"Andalucia","Id":8652,"Province":"Sevilla","ProvinceAbbreviation":"SE","ProvinceId":200},{"City":"Utrera","Country":"Spain","CountryAbbreviation":"ES","CountryId":101,"County":"Andalucia","Id":8653,"Province":"Sevilla","ProvinceAbbreviation":"SE","ProvinceId":200}]}'
-    http_version: '1.1'
-  recorded_at: Thu, 31 Jul 2014 03:34:55 GMT
-- request:
-    method: get
     uri: https://www.zipcodeservices.com/services/rest/json/cities.svc//200
     body:
       encoding: US-ASCII
@@ -93,4 +62,35 @@ http_interactions:
         L3A+DQogICAgPC9kaXY+DQogIDwvYm9keT4NCjwvaHRtbD4=
     http_version: '1.1'
   recorded_at: Thu, 31 Jul 2014 05:46:36 GMT
+- request:
+    method: get
+    uri: https://www.zipcodeservices.com/services/rest/json/cities.svc/<API_KEY>/200
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '2361'
+      Content-Type:
+      - application/json; charset=utf-8
+      Server:
+      - Microsoft-IIS/7.5
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Thu, 21 Aug 2014 17:59:01 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: '{"GetCitiesByProvinceResult":[{"City":"Alamo","Country":"Spain","CountryAbbreviation":"ES","CountryId":101,"County":"Andalucia","Id":8641,"Province":"Sevilla","ProvinceAbbreviation":"SE","ProvinceId":200},{"City":"Alcala","Country":"Spain","CountryAbbreviation":"ES","CountryId":101,"County":"Andalucia","Id":8642,"Province":"Sevilla","ProvinceAbbreviation":"SE","ProvinceId":200},{"City":"Brenes","Country":"Spain","CountryAbbreviation":"ES","CountryId":101,"County":"Andalucia","Id":8643,"Province":"Sevilla","ProvinceAbbreviation":"SE","ProvinceId":200},{"City":"Dos
+        Hermanas","Country":"Spain","CountryAbbreviation":"ES","CountryId":101,"County":"Andalucia","Id":8644,"Province":"Sevilla","ProvinceAbbreviation":"SE","ProvinceId":200},{"City":"Ecija","Country":"Spain","CountryAbbreviation":"ES","CountryId":101,"County":"Andalucia","Id":8645,"Province":"Sevilla","ProvinceAbbreviation":"SE","ProvinceId":200},{"City":"Gines","Country":"Spain","CountryAbbreviation":"ES","CountryId":101,"County":"Andalucia","Id":8646,"Province":"Sevilla","ProvinceAbbreviation":"SE","ProvinceId":200},{"City":"Herrera","Country":"Spain","CountryAbbreviation":"ES","CountryId":101,"County":"Andalucia","Id":8647,"Province":"Sevilla","ProvinceAbbreviation":"SE","ProvinceId":200},{"City":"La
+        Rinconada","Country":"Spain","CountryAbbreviation":"ES","CountryId":101,"County":"Andalucia","Id":8648,"Province":"Sevilla","ProvinceAbbreviation":"SE","ProvinceId":200},{"City":"Mairena
+        Del Aljarafe","Country":"Spain","CountryAbbreviation":"ES","CountryId":101,"County":"Andalucia","Id":8649,"Province":"Sevilla","ProvinceAbbreviation":"SE","ProvinceId":200},{"City":"Osuna","Country":"Spain","CountryAbbreviation":"ES","CountryId":101,"County":"Andalucia","Id":8650,"Province":"Sevilla","ProvinceAbbreviation":"SE","ProvinceId":200},{"City":"San
+        Juan De Aznalfarache","Country":"Spain","CountryAbbreviation":"ES","CountryId":101,"County":"Andalucia","Id":8651,"Province":"Sevilla","ProvinceAbbreviation":"SE","ProvinceId":200},{"City":"Sevilla","Country":"Spain","CountryAbbreviation":"ES","CountryId":101,"County":"Andalucia","Id":8652,"Province":"Sevilla","ProvinceAbbreviation":"SE","ProvinceId":200},{"City":"Utrera","Country":"Spain","CountryAbbreviation":"ES","CountryId":101,"County":"Andalucia","Id":8653,"Province":"Sevilla","ProvinceAbbreviation":"SE","ProvinceId":200}]}'
+    http_version: '1.1'
+  recorded_at: Thu, 21 Aug 2014 17:59:03 GMT
 recorded_with: VCR 2.9.2

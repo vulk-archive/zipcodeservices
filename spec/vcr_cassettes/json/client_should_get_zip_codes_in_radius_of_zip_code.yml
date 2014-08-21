@@ -2,6 +2,33 @@
 http_interactions:
 - request:
     method: get
+    uri: https://www.zipcodeservices.com/services/rest/json/zipcodes.svc//78702/1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '204'
+      Content-Type:
+      - application/json; charset=utf-8
+      Server:
+      - Microsoft-IIS/7.5
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Thu, 31 Jul 2014 05:46:08 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: '{"RetrieveZipCodeInfoResult":{"City":null,"Continent":null,"ContinentCode":null,"Country":null,"CountryCode":null,"County":null,"Latitude":0,"Longitude":0,"PostalCode":null,"State":null,"StateCode":null}}'
+    http_version: '1.1'
+  recorded_at: Thu, 31 Jul 2014 05:46:35 GMT
+- request:
+    method: get
     uri: https://www.zipcodeservices.com/services/rest/json/zipcodes.svc/<API_KEY>/78702/1
     body:
       encoding: US-ASCII
@@ -21,7 +48,7 @@ http_interactions:
       X-Powered-By:
       - ASP.NET
       Date:
-      - Thu, 31 Jul 2014 03:34:28 GMT
+      - Thu, 21 Aug 2014 17:58:59 GMT
     body:
       encoding: ASCII-8BIT
       string: '{"RetrieveZipCodesInRadiusResult":[{"City":"Austin","Continent":"North
@@ -150,32 +177,5 @@ http_interactions:
         America","ContinentCode":"NA","Country":"United States","CountryCode":"US","County":"Travis
         Williamson","DistanceAwayInKilometers":0.00000000000,"DistanceAwayInMiles":0.000000,"Latitude":30.295800,"Longitude":-97.810100,"PostalCode":"78799","State":"TX"}]}'
     http_version: '1.1'
-  recorded_at: Thu, 31 Jul 2014 03:34:55 GMT
-- request:
-    method: get
-    uri: https://www.zipcodeservices.com/services/rest/json/zipcodes.svc//78702/1
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers: {}
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Length:
-      - '204'
-      Content-Type:
-      - application/json; charset=utf-8
-      Server:
-      - Microsoft-IIS/7.5
-      X-Powered-By:
-      - ASP.NET
-      Date:
-      - Thu, 31 Jul 2014 05:46:08 GMT
-    body:
-      encoding: ASCII-8BIT
-      string: '{"RetrieveZipCodeInfoResult":{"City":null,"Continent":null,"ContinentCode":null,"Country":null,"CountryCode":null,"County":null,"Latitude":0,"Longitude":0,"PostalCode":null,"State":null,"StateCode":null}}'
-    http_version: '1.1'
-  recorded_at: Thu, 31 Jul 2014 05:46:35 GMT
+  recorded_at: Thu, 21 Aug 2014 17:59:02 GMT
 recorded_with: VCR 2.9.2

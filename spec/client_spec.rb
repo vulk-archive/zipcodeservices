@@ -1,6 +1,8 @@
 require 'zipcodeservices'
 require 'spec_helper'
 
+ZipCodeServices.apikey = 	ENV['ZIP_CODE_SERVICES_API_KEY'] 
+
 describe "json client" do 
   before(:each) do
     ZipCodeServices.data_format = :json
@@ -13,12 +15,12 @@ describe "json client" do
   end
 
   it "should get zip codes in radius of zip code", :vcr,  record: :all do
-    zips = ZipCodeServices.radius(78702, 1)
+    zips = ZipCodeServices.get_zipcodes_in_radius_of_zipcode(78702, 1)
     zips.first[1].first["PostalCode"].should == "78701"
   end
 
   it "should get zip codes in radius of latitude and longitude", :vcr,  record: :all do
-    zips = ZipCodeServices.radius_by_latlong("30.2645715", "-97.7284341", 1)
+    zips = ZipCodeServices.get_zips_in_radius_of_latlong("30.2645715", "-97.7284341", 1)
     zips.first[1].first["PostalCode"].should == "73301"
   end
 
@@ -71,12 +73,12 @@ describe "xml client" do
   end
 
   it "should get zip codes in radius of zip code", :vcr,  record: :all do
-    zips = ZipCodeServices.radius(78702, 1)
+    zips = ZipCodeServices.get_zipcodes_in_radius_of_zipcode(78702, 1)
     zips.first[1].first[1].first[1].first["PostalCode"].should == "78701"
   end
 
   it "should get zip codes in radius of latitude and longitude", :vcr,  record: :all do
-    zips = ZipCodeServices.radius_by_latlong("30.2645715", "-97.7284341", 1)
+    zips = ZipCodeServices.get_zips_in_radius_of_latlong("30.2645715", "-97.7284341", 1)
     zips.first[1]["GetZipCodesInRadiusOfLatLongResult"]["ZipCodeWithDistanceDTO"][0]["PostalCode"].should == "73301"
   end
 
@@ -115,3 +117,4 @@ describe "xml client" do
     data.first[1].first[1].first[1]["PostalCode"].should == "86323"
   end
 end
+

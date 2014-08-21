@@ -2,6 +2,37 @@
 http_interactions:
 - request:
     method: get
+    uri: https://www.zipcodeservices.com/services/rest/xml/zipcodes.svc//78702/1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '543'
+      Content-Type:
+      - application/xml; charset=utf-8
+      Server:
+      - Microsoft-IIS/7.5
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Thu, 31 Jul 2014 05:46:09 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: <RetrieveZipCodeInfoResponse xmlns="http://tempuri.org/"><RetrieveZipCodeInfoResult
+        xmlns:a="http://schemas.datacontract.org/2004/07/Zips.DTO" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><a:City
+        i:nil="true"/><a:Continent i:nil="true"/><a:ContinentCode i:nil="true"/><a:Country
+        i:nil="true"/><a:CountryCode i:nil="true"/><a:County i:nil="true"/><a:Latitude>0</a:Latitude><a:Longitude>0</a:Longitude><a:PostalCode
+        i:nil="true"/><a:State i:nil="true"/><a:StateCode i:nil="true"/></RetrieveZipCodeInfoResult></RetrieveZipCodeInfoResponse>
+    http_version: '1.1'
+  recorded_at: Thu, 31 Jul 2014 05:46:36 GMT
+- request:
+    method: get
     uri: https://www.zipcodeservices.com/services/rest/xml/zipcodes.svc/<API_KEY>/78702/1
     body:
       encoding: US-ASCII
@@ -21,7 +52,7 @@ http_interactions:
       X-Powered-By:
       - ASP.NET
       Date:
-      - Thu, 31 Jul 2014 03:34:28 GMT
+      - Thu, 21 Aug 2014 17:59:03 GMT
     body:
       encoding: ASCII-8BIT
       string: <RetrieveZipCodesInRadiusResponse xmlns="http://tempuri.org/"><RetrieveZipCodesInRadiusResult
@@ -151,36 +182,5 @@ http_interactions:
         America</a:Continent><a:ContinentCode>NA</a:ContinentCode><a:Country>United
         States</a:Country><a:CountryCode>US</a:CountryCode><a:County>Travis Williamson</a:County><a:DistanceAwayInKilometers>0.00000000000</a:DistanceAwayInKilometers><a:DistanceAwayInMiles>0.000000</a:DistanceAwayInMiles><a:Latitude>30.295800</a:Latitude><a:Longitude>-97.810100</a:Longitude><a:PostalCode>78799</a:PostalCode><a:State>TX</a:State></a:ZipCodeWithDistanceDTO></RetrieveZipCodesInRadiusResult></RetrieveZipCodesInRadiusResponse>
     http_version: '1.1'
-  recorded_at: Thu, 31 Jul 2014 03:34:55 GMT
-- request:
-    method: get
-    uri: https://www.zipcodeservices.com/services/rest/xml/zipcodes.svc//78702/1
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers: {}
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Length:
-      - '543'
-      Content-Type:
-      - application/xml; charset=utf-8
-      Server:
-      - Microsoft-IIS/7.5
-      X-Powered-By:
-      - ASP.NET
-      Date:
-      - Thu, 31 Jul 2014 05:46:09 GMT
-    body:
-      encoding: ASCII-8BIT
-      string: <RetrieveZipCodeInfoResponse xmlns="http://tempuri.org/"><RetrieveZipCodeInfoResult
-        xmlns:a="http://schemas.datacontract.org/2004/07/Zips.DTO" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><a:City
-        i:nil="true"/><a:Continent i:nil="true"/><a:ContinentCode i:nil="true"/><a:Country
-        i:nil="true"/><a:CountryCode i:nil="true"/><a:County i:nil="true"/><a:Latitude>0</a:Latitude><a:Longitude>0</a:Longitude><a:PostalCode
-        i:nil="true"/><a:State i:nil="true"/><a:StateCode i:nil="true"/></RetrieveZipCodeInfoResult></RetrieveZipCodeInfoResponse>
-    http_version: '1.1'
-  recorded_at: Thu, 31 Jul 2014 05:46:36 GMT
+  recorded_at: Thu, 21 Aug 2014 17:59:05 GMT
 recorded_with: VCR 2.9.2

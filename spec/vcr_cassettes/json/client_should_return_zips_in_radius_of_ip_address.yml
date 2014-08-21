@@ -27,4 +27,32 @@ http_interactions:
       string: '{"RetrieveZipCodesInRadiusOfIPResult":null}'
     http_version: '1.1'
   recorded_at: Thu, 31 Jul 2014 05:46:36 GMT
+- request:
+    method: get
+    uri: https://www.zipcodeservices.com/services/rest/json/ipaddress.svc/GetZipsInRadiusOfIP?apikey=<API_KEY>&ip=184.98.179.3&radius=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '328'
+      Content-Type:
+      - application/json; charset=utf-8
+      Server:
+      - Microsoft-IIS/7.5
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Thu, 21 Aug 2014 17:59:03 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: '{"RetrieveZipCodesInRadiusOfIPResult":[{"City":"Chino Valley","Continent":"North
+        America","ContinentCode":"NA","Country":"United States","CountryCode":"US","County":"Yavapai","DistanceAwayInKilometers":0.00009495106,"DistanceAwayInMiles":0.000059,"Latitude":34.824500,"Longitude":-112.459500,"PostalCode":"86323","State":"AZ"}]}'
+    http_version: '1.1'
+  recorded_at: Thu, 21 Aug 2014 17:59:04 GMT
 recorded_with: VCR 2.9.2
