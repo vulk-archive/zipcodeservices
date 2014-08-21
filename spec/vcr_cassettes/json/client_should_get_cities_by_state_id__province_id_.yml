@@ -72,81 +72,25 @@ http_interactions:
   response:
     status:
       code: 200
-      message: !binary |-
-        T0s=
+      message: OK
     headers:
-      !binary "Q29udGVudC1MZW5ndGg=":
-      - !binary |-
-        MjM2MQ==
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        YXBwbGljYXRpb24vanNvbjsgY2hhcnNldD11dGYtOA==
-      !binary "U2VydmVy":
-      - !binary |-
-        TWljcm9zb2Z0LUlJUy83LjU=
-      !binary "WC1Qb3dlcmVkLUJ5":
-      - !binary |-
-        QVNQLk5FVA==
-      !binary "RGF0ZQ==":
-      - !binary |-
-        VGh1LCAzMSBKdWwgMjAxNCAyMzo1NjoxMSBHTVQ=
+      Content-Length:
+      - '2361'
+      Content-Type:
+      - application/json; charset=utf-8
+      Server:
+      - Microsoft-IIS/7.5
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Thu, 21 Aug 2014 17:59:01 GMT
     body:
       encoding: ASCII-8BIT
-      string: !binary |-
-        eyJHZXRDaXRpZXNCeVByb3ZpbmNlUmVzdWx0IjpbeyJDaXR5IjoiQWxhbW8i
-        LCJDb3VudHJ5IjoiU3BhaW4iLCJDb3VudHJ5QWJicmV2aWF0aW9uIjoiRVMi
-        LCJDb3VudHJ5SWQiOjEwMSwiQ291bnR5IjoiQW5kYWx1Y2lhIiwiSWQiOjg2
-        NDEsIlByb3ZpbmNlIjoiU2V2aWxsYSIsIlByb3ZpbmNlQWJicmV2aWF0aW9u
-        IjoiU0UiLCJQcm92aW5jZUlkIjoyMDB9LHsiQ2l0eSI6IkFsY2FsYSIsIkNv
-        dW50cnkiOiJTcGFpbiIsIkNvdW50cnlBYmJyZXZpYXRpb24iOiJFUyIsIkNv
-        dW50cnlJZCI6MTAxLCJDb3VudHkiOiJBbmRhbHVjaWEiLCJJZCI6ODY0Miwi
-        UHJvdmluY2UiOiJTZXZpbGxhIiwiUHJvdmluY2VBYmJyZXZpYXRpb24iOiJT
-        RSIsIlByb3ZpbmNlSWQiOjIwMH0seyJDaXR5IjoiQnJlbmVzIiwiQ291bnRy
-        eSI6IlNwYWluIiwiQ291bnRyeUFiYnJldmlhdGlvbiI6IkVTIiwiQ291bnRy
-        eUlkIjoxMDEsIkNvdW50eSI6IkFuZGFsdWNpYSIsIklkIjo4NjQzLCJQcm92
-        aW5jZSI6IlNldmlsbGEiLCJQcm92aW5jZUFiYnJldmlhdGlvbiI6IlNFIiwi
-        UHJvdmluY2VJZCI6MjAwfSx7IkNpdHkiOiJEb3MgSGVybWFuYXMiLCJDb3Vu
-        dHJ5IjoiU3BhaW4iLCJDb3VudHJ5QWJicmV2aWF0aW9uIjoiRVMiLCJDb3Vu
-        dHJ5SWQiOjEwMSwiQ291bnR5IjoiQW5kYWx1Y2lhIiwiSWQiOjg2NDQsIlBy
-        b3ZpbmNlIjoiU2V2aWxsYSIsIlByb3ZpbmNlQWJicmV2aWF0aW9uIjoiU0Ui
-        LCJQcm92aW5jZUlkIjoyMDB9LHsiQ2l0eSI6IkVjaWphIiwiQ291bnRyeSI6
-        IlNwYWluIiwiQ291bnRyeUFiYnJldmlhdGlvbiI6IkVTIiwiQ291bnRyeUlk
-        IjoxMDEsIkNvdW50eSI6IkFuZGFsdWNpYSIsIklkIjo4NjQ1LCJQcm92aW5j
-        ZSI6IlNldmlsbGEiLCJQcm92aW5jZUFiYnJldmlhdGlvbiI6IlNFIiwiUHJv
-        dmluY2VJZCI6MjAwfSx7IkNpdHkiOiJHaW5lcyIsIkNvdW50cnkiOiJTcGFp
-        biIsIkNvdW50cnlBYmJyZXZpYXRpb24iOiJFUyIsIkNvdW50cnlJZCI6MTAx
-        LCJDb3VudHkiOiJBbmRhbHVjaWEiLCJJZCI6ODY0NiwiUHJvdmluY2UiOiJT
-        ZXZpbGxhIiwiUHJvdmluY2VBYmJyZXZpYXRpb24iOiJTRSIsIlByb3ZpbmNl
-        SWQiOjIwMH0seyJDaXR5IjoiSGVycmVyYSIsIkNvdW50cnkiOiJTcGFpbiIs
-        IkNvdW50cnlBYmJyZXZpYXRpb24iOiJFUyIsIkNvdW50cnlJZCI6MTAxLCJD
-        b3VudHkiOiJBbmRhbHVjaWEiLCJJZCI6ODY0NywiUHJvdmluY2UiOiJTZXZp
-        bGxhIiwiUHJvdmluY2VBYmJyZXZpYXRpb24iOiJTRSIsIlByb3ZpbmNlSWQi
-        OjIwMH0seyJDaXR5IjoiTGEgUmluY29uYWRhIiwiQ291bnRyeSI6IlNwYWlu
-        IiwiQ291bnRyeUFiYnJldmlhdGlvbiI6IkVTIiwiQ291bnRyeUlkIjoxMDEs
-        IkNvdW50eSI6IkFuZGFsdWNpYSIsIklkIjo4NjQ4LCJQcm92aW5jZSI6IlNl
-        dmlsbGEiLCJQcm92aW5jZUFiYnJldmlhdGlvbiI6IlNFIiwiUHJvdmluY2VJ
-        ZCI6MjAwfSx7IkNpdHkiOiJNYWlyZW5hIERlbCBBbGphcmFmZSIsIkNvdW50
-        cnkiOiJTcGFpbiIsIkNvdW50cnlBYmJyZXZpYXRpb24iOiJFUyIsIkNvdW50
-        cnlJZCI6MTAxLCJDb3VudHkiOiJBbmRhbHVjaWEiLCJJZCI6ODY0OSwiUHJv
-        dmluY2UiOiJTZXZpbGxhIiwiUHJvdmluY2VBYmJyZXZpYXRpb24iOiJTRSIs
-        IlByb3ZpbmNlSWQiOjIwMH0seyJDaXR5IjoiT3N1bmEiLCJDb3VudHJ5Ijoi
-        U3BhaW4iLCJDb3VudHJ5QWJicmV2aWF0aW9uIjoiRVMiLCJDb3VudHJ5SWQi
-        OjEwMSwiQ291bnR5IjoiQW5kYWx1Y2lhIiwiSWQiOjg2NTAsIlByb3ZpbmNl
-        IjoiU2V2aWxsYSIsIlByb3ZpbmNlQWJicmV2aWF0aW9uIjoiU0UiLCJQcm92
-        aW5jZUlkIjoyMDB9LHsiQ2l0eSI6IlNhbiBKdWFuIERlIEF6bmFsZmFyYWNo
-        ZSIsIkNvdW50cnkiOiJTcGFpbiIsIkNvdW50cnlBYmJyZXZpYXRpb24iOiJF
-        UyIsIkNvdW50cnlJZCI6MTAxLCJDb3VudHkiOiJBbmRhbHVjaWEiLCJJZCI6
-        ODY1MSwiUHJvdmluY2UiOiJTZXZpbGxhIiwiUHJvdmluY2VBYmJyZXZpYXRp
-        b24iOiJTRSIsIlByb3ZpbmNlSWQiOjIwMH0seyJDaXR5IjoiU2V2aWxsYSIs
-        IkNvdW50cnkiOiJTcGFpbiIsIkNvdW50cnlBYmJyZXZpYXRpb24iOiJFUyIs
-        IkNvdW50cnlJZCI6MTAxLCJDb3VudHkiOiJBbmRhbHVjaWEiLCJJZCI6ODY1
-        MiwiUHJvdmluY2UiOiJTZXZpbGxhIiwiUHJvdmluY2VBYmJyZXZpYXRpb24i
-        OiJTRSIsIlByb3ZpbmNlSWQiOjIwMH0seyJDaXR5IjoiVXRyZXJhIiwiQ291
-        bnRyeSI6IlNwYWluIiwiQ291bnRyeUFiYnJldmlhdGlvbiI6IkVTIiwiQ291
-        bnRyeUlkIjoxMDEsIkNvdW50eSI6IkFuZGFsdWNpYSIsIklkIjo4NjUzLCJQ
-        cm92aW5jZSI6IlNldmlsbGEiLCJQcm92aW5jZUFiYnJldmlhdGlvbiI6IlNF
-        IiwiUHJvdmluY2VJZCI6MjAwfV19
-    http_version: !binary |-
-      MS4x
-  recorded_at: Thu, 31 Jul 2014 23:56:14 GMT
-recorded_with: VCR 2.2.4
+      string: '{"GetCitiesByProvinceResult":[{"City":"Alamo","Country":"Spain","CountryAbbreviation":"ES","CountryId":101,"County":"Andalucia","Id":8641,"Province":"Sevilla","ProvinceAbbreviation":"SE","ProvinceId":200},{"City":"Alcala","Country":"Spain","CountryAbbreviation":"ES","CountryId":101,"County":"Andalucia","Id":8642,"Province":"Sevilla","ProvinceAbbreviation":"SE","ProvinceId":200},{"City":"Brenes","Country":"Spain","CountryAbbreviation":"ES","CountryId":101,"County":"Andalucia","Id":8643,"Province":"Sevilla","ProvinceAbbreviation":"SE","ProvinceId":200},{"City":"Dos
+        Hermanas","Country":"Spain","CountryAbbreviation":"ES","CountryId":101,"County":"Andalucia","Id":8644,"Province":"Sevilla","ProvinceAbbreviation":"SE","ProvinceId":200},{"City":"Ecija","Country":"Spain","CountryAbbreviation":"ES","CountryId":101,"County":"Andalucia","Id":8645,"Province":"Sevilla","ProvinceAbbreviation":"SE","ProvinceId":200},{"City":"Gines","Country":"Spain","CountryAbbreviation":"ES","CountryId":101,"County":"Andalucia","Id":8646,"Province":"Sevilla","ProvinceAbbreviation":"SE","ProvinceId":200},{"City":"Herrera","Country":"Spain","CountryAbbreviation":"ES","CountryId":101,"County":"Andalucia","Id":8647,"Province":"Sevilla","ProvinceAbbreviation":"SE","ProvinceId":200},{"City":"La
+        Rinconada","Country":"Spain","CountryAbbreviation":"ES","CountryId":101,"County":"Andalucia","Id":8648,"Province":"Sevilla","ProvinceAbbreviation":"SE","ProvinceId":200},{"City":"Mairena
+        Del Aljarafe","Country":"Spain","CountryAbbreviation":"ES","CountryId":101,"County":"Andalucia","Id":8649,"Province":"Sevilla","ProvinceAbbreviation":"SE","ProvinceId":200},{"City":"Osuna","Country":"Spain","CountryAbbreviation":"ES","CountryId":101,"County":"Andalucia","Id":8650,"Province":"Sevilla","ProvinceAbbreviation":"SE","ProvinceId":200},{"City":"San
+        Juan De Aznalfarache","Country":"Spain","CountryAbbreviation":"ES","CountryId":101,"County":"Andalucia","Id":8651,"Province":"Sevilla","ProvinceAbbreviation":"SE","ProvinceId":200},{"City":"Sevilla","Country":"Spain","CountryAbbreviation":"ES","CountryId":101,"County":"Andalucia","Id":8652,"Province":"Sevilla","ProvinceAbbreviation":"SE","ProvinceId":200},{"City":"Utrera","Country":"Spain","CountryAbbreviation":"ES","CountryId":101,"County":"Andalucia","Id":8653,"Province":"Sevilla","ProvinceAbbreviation":"SE","ProvinceId":200}]}'
+    http_version: '1.1'
+  recorded_at: Thu, 21 Aug 2014 17:59:03 GMT
+recorded_with: VCR 2.9.2

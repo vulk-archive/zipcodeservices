@@ -15,7 +15,7 @@ describe "json client" do
   end
 
   it "should get zip codes in radius of zip code", :vcr,  record: :all do
-    zips = ZipCodeServicesget_zipcodes_in_radius_of_zipcode78702, 1)
+    zips = ZipCodeServices.get_zipcodes_in_radius_of_zipcode(78702, 1)
     zips.first[1].first["PostalCode"].should == "78701"
   end
 
@@ -73,7 +73,7 @@ describe "xml client" do
   end
 
   it "should get zip codes in radius of zip code", :vcr,  record: :all do
-    zips = ZipCodeServicesget_zipcodes_in_radius_of_zipcode78702, 1)
+    zips = ZipCodeServices.get_zipcodes_in_radius_of_zipcode(78702, 1)
     zips.first[1].first[1].first[1].first["PostalCode"].should == "78701"
   end
 

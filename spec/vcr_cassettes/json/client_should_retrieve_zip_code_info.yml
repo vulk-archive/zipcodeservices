@@ -72,35 +72,22 @@ http_interactions:
   response:
     status:
       code: 200
-      message: !binary |-
-        T0s=
+      message: OK
     headers:
-      !binary "Q29udGVudC1MZW5ndGg=":
-      - !binary |-
-        Mjcx
-      !binary "Q29udGVudC1UeXBl":
-      - !binary |-
-        YXBwbGljYXRpb24vanNvbjsgY2hhcnNldD11dGYtOA==
-      !binary "U2VydmVy":
-      - !binary |-
-        TWljcm9zb2Z0LUlJUy83LjU=
-      !binary "WC1Qb3dlcmVkLUJ5":
-      - !binary |-
-        QVNQLk5FVA==
-      !binary "RGF0ZQ==":
-      - !binary |-
-        VGh1LCAzMSBKdWwgMjAxNCAyMzo1NjowOSBHTVQ=
+      Content-Length:
+      - '271'
+      Content-Type:
+      - application/json; charset=utf-8
+      Server:
+      - Microsoft-IIS/7.5
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Thu, 21 Aug 2014 17:58:59 GMT
     body:
       encoding: ASCII-8BIT
-      string: !binary |-
-        eyJSZXRyaWV2ZVppcENvZGVJbmZvUmVzdWx0Ijp7IkNpdHkiOiJBdXN0aW4i
-        LCJDb250aW5lbnQiOiJOb3J0aCBBbWVyaWNhIiwiQ29udGluZW50Q29kZSI6
-        Ik5BIiwiQ291bnRyeSI6IlVuaXRlZCBTdGF0ZXMiLCJDb3VudHJ5Q29kZSI6
-        IlVTIiwiQ291bnR5IjoiVHJhdmlzIFdpbGxpYW1zb24iLCJMYXRpdHVkZSI6
-        MzAuMjk1ODAwLCJMb25naXR1ZGUiOi05Ny44MTAxMDAsIlBvc3RhbENvZGUi
-        OiI3ODcwMiIsIlN0YXRlIjoiVGV4YXMiLCJTdGF0ZUNvZGUiOiJUZXhhcyJ9
-        fQ==
-    http_version: !binary |-
-      MS4x
-  recorded_at: Thu, 31 Jul 2014 23:56:11 GMT
-recorded_with: VCR 2.2.4
+      string: '{"RetrieveZipCodeInfoResult":{"City":"Austin","Continent":"North America","ContinentCode":"NA","Country":"United
+        States","CountryCode":"US","County":"Travis Williamson","Latitude":30.295800,"Longitude":-97.810100,"PostalCode":"78702","State":"Texas","StateCode":"Texas"}}'
+    http_version: '1.1'
+  recorded_at: Thu, 21 Aug 2014 17:59:01 GMT
+recorded_with: VCR 2.9.2
